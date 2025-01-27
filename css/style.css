@@ -20,6 +20,7 @@ body {
   position: relative;
   height: 800px;
   background: rgb(225, 255, 143);
+  background-image: url(img/star2.svg), url(img/star3.svg), url(img/star4.svg), url(img/star5.svg);
 }
 .top__content {
   width: 768px;
