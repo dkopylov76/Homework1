@@ -12,7 +12,7 @@ body {
 }
 
 .center {
-  padding-left: calc(50% - 791px);
+  padding-left: calc(50% - 600px);
   padding-right: calc(50% - 600px);
 }
 
@@ -64,8 +64,7 @@ body {
   text-align: center;
 }
 .header__img-2 {
-  position: absolute;
-  left: 63px;
+  left: calc(50% - 657px);
   top: 94px;
 }
 .header__img-3 {
