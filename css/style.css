@@ -12,7 +12,7 @@ body {
 }
 
 .center {
-  padding-left: calc(50% - 600px);
+  padding-left: calc(50% - 791px);
   padding-right: calc(50% - 600px);
 }
 
@@ -20,6 +20,8 @@ body {
   position: relative;
   height: 800px;
   background: rgb(225, 255, 143);
+  background-size: contain;
+  background-position: center;
 }
 .header__content {
   width: 768px;
@@ -61,9 +63,8 @@ body {
   text-align: center;
 }
 .header__img-2 {
-  position: absolute;
   top: 94px;
-  left: 63px;
+  left: calc(50% - 600px);
 }
 .header__img-3 {
   position: absolute;
