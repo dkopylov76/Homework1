@@ -89,11 +89,13 @@ body {
   top: 538px;
 }
 .header__bottom {
+  width: 3220px;
   height: 90px;
   padding-top: 156px;
   display: flex;
   flex-direction: row;
   gap: 51px;
+  overflow: hidden;
 }
 .header__bottom-text {
   color: rgb(32, 32, 39);
