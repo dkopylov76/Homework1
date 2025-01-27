@@ -67,6 +67,7 @@ body {
   position: absolute;
   left: calc(50% + 134px);
   bottom: 3px;
+  overflow: hidden;
 }
 .header__img-2 {
   position: absolute;
