@@ -46,8 +46,9 @@
     }
     &__img {
         &-2 {
+            position: absolute;
+            left: 63px;
             top: 94px;
-            left: calc(50% - 734px);
         }
         &-3 {
             position: absolute;
