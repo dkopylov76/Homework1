@@ -78,6 +78,10 @@
         flex-direction: row;
         gap: 51px;
         &-text {
+            color: rgb(32, 32, 39);
+            font-size: 30px;
+            font-weight: 700;
+            text-align: left;
             text-transform: uppercase;
         }
     }

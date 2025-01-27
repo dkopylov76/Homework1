@@ -96,5 +96,9 @@ body {
   gap: 51px;
 }
 .header__bottom-text {
+  color: rgb(32, 32, 39);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
   text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
