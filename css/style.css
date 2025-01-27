@@ -70,7 +70,7 @@ body {
 }
 .header__img-3 {
   position: absolute;
-  left: 156px;
+  left: calc(50% - 564px);
   top: 69px;
 }
 .header__img-4 {
