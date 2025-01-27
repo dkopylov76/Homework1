@@ -41,8 +41,7 @@ body {
   text-align: left;
 }
 .top__text-bold {
-  -webkit-text-decoration: solid;
-          text-decoration: solid;
+  font-weight: 600;
 }
 .top__button {
   width: 247px;
