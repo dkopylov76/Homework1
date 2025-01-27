@@ -89,9 +89,12 @@ body {
   top: 538px;
 }
 .header__bottom {
+  height: 90px;
+  padding-top: 156px;
   display: flex;
   flex-direction: row;
+  gap: 51px;
 }
 .header__bottom-text {
-  text-decoration: line-through;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */

@@ -72,10 +72,13 @@
         }
     }
     &__bottom {
+        height: 90px;
+        padding-top: 156px;
         display: flex;
         flex-direction: row;
+        gap: 51px;
         &-text {
-            text-decoration: line-through;
+            text-transform: uppercase;
         }
     }
 }
