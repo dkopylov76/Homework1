@@ -75,11 +75,11 @@ body {
 }
 .header__img-4 {
   position: absolute;
-  left: 1013px;
+  left: calc(50% + 159px);
   top: 568px;
 }
 .header__img-5 {
   position: absolute;
-  left: 948px;
+  left: calc(50% + 94px);
   top: 538px;
 }/*# sourceMappingURL=style.css.map */
