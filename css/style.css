@@ -37,6 +37,7 @@ body {
 }
 .top__text {
   padding-top: 24px;
+  padding-bottom: 48px;
   color: rgb(32, 32, 39);
   font-size: 24px;
   font-weight: 400;
