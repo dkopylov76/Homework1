@@ -20,7 +20,7 @@ body {
   position: relative;
   height: 800px;
   background: rgb(225, 255, 143);
-  background-image: url(../img/star2.svg), url(../img/star3.svg);
+  background-image: url(../img/star2.svg), url(../img/star3.svg), url(../img/star4.svg), url(../img/star5.svg);
   background-repeat: no-repeat;
 }
 .top__content {
@@ -61,4 +61,9 @@ body {
   font-size: 24px;
   font-weight: 600;
   text-align: center;
+}
+.top__img-2 {
+  position: absolute;
+  padding-top: 94px;
+  padding-left: 63px;
 }/*# sourceMappingURL=style.css.map */
