@@ -89,6 +89,7 @@ body {
   top: 538px;
 }
 .header__bottom {
+  position: absolute;
   width: 3220px;
   height: 90px;
   margin-top: 156px;
