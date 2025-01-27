@@ -1,9 +1,7 @@
-.top {
+.header {
     position: relative;
     height: 800px;
     background: rgb(225, 255, 143);
-    background-image: url(../img/star2.svg), url(../img/star3.svg), url(../img/star4.svg), url(../img/star5.svg);
-    background-repeat: no-repeat;
     &__content {
         width: 768px;
         padding-top: 196px;
@@ -45,8 +43,24 @@
     }
     &__img {
         &-2 {
-            padding-top: 94px;
-            padding-left: 63px;
+            position: absolute;
+            top: 94px;
+            left: 63px;
+        }
+        &-3 {
+            position: absolute;
+            left: 156px;
+            top: 69px;
+        }
+        &-4 {
+            position: absolute;
+            left: 1013px;
+            top: 568px;
+        }
+        &-5 {
+            position: absolute;
+            left: 948px;
+            top: 538px;
         }
     }
 }

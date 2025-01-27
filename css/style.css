@@ -16,28 +16,26 @@ body {
   padding-right: calc(50% - 600px);
 }
 
-.top {
+.header {
   position: relative;
   height: 800px;
   background: rgb(225, 255, 143);
-  background-image: url(../img/star2.svg), url(../img/star3.svg), url(../img/star4.svg), url(../img/star5.svg);
-  background-repeat: no-repeat;
 }
-.top__content {
+.header__content {
   width: 768px;
   padding-top: 196px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.top__h1 {
+.header__h1 {
   color: rgb(32, 32, 39);
   font-size: 32px;
   font-weight: 700;
   line-height: 78px;
   text-align: left;
 }
-.top__text {
+.header__text {
   padding-top: 24px;
   padding-bottom: 48px;
   color: rgb(32, 32, 39);
@@ -46,10 +44,10 @@ body {
   line-height: 32px;
   text-align: left;
 }
-.top__text-bold {
+.header__text-bold {
   font-weight: 600;
 }
-.top__button {
+.header__button {
   width: 247px;
   height: 66px;
   align-items: center;
@@ -62,7 +60,23 @@ body {
   font-weight: 600;
   text-align: center;
 }
-.top__img-2 {
-  padding-top: 94px;
-  padding-left: 63px;
+.header__img-2 {
+  position: absolute;
+  top: 94px;
+  left: 63px;
+}
+.header__img-3 {
+  position: absolute;
+  left: 156px;
+  top: 69px;
+}
+.header__img-4 {
+  position: absolute;
+  left: 1013px;
+  top: 568px;
+}
+.header__img-5 {
+  position: absolute;
+  left: 948px;
+  top: 538px;
 }/*# sourceMappingURL=style.css.map */
