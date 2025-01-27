@@ -5,6 +5,9 @@
     &__content {
         width: 768px;
         padding-top: 196px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
     &__h1 {
         color: rgb(32, 32, 39);
