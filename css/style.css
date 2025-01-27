@@ -25,6 +25,7 @@ body {
 }
 .header__content {
   width: 768px;
+  padding-left: 57px;
   padding-top: 196px;
   display: flex;
   flex-direction: column;
