@@ -52,6 +52,7 @@ body {
   text-align: center;
 }
 .top__img {
+  position: absolute;
   padding-top: 94px;
   padding-left: 63px;
   border: 1px solid rgb(32, 32, 39);
