@@ -94,8 +94,10 @@ body {
   padding-top: 156px;
   display: flex;
   flex-direction: row;
+  align-items: baseline;
   gap: 51px;
   overflow: hidden;
+  background: rgb(188, 236, 48);
 }
 .header__bottom-text {
   color: rgb(32, 32, 39);
