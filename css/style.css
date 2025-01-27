@@ -25,7 +25,6 @@ body {
 }
 .header__content {
   width: 768px;
-  padding-left: 57px;
   padding-top: 196px;
   display: flex;
   flex-direction: column;
@@ -88,4 +87,11 @@ body {
   position: absolute;
   left: calc(50% + 94px);
   top: 538px;
+}
+.header__bottom {
+  display: flex;
+  flex-direction: row;
+}
+.header__bottom-text {
+  text-decoration: line-through;
 }/*# sourceMappingURL=style.css.map */

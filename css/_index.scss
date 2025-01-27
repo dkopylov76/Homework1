@@ -6,7 +6,6 @@
     background-position: center;
     &__content {
         width: 768px;
-        padding-left: 57px;
         padding-top: 196px;
         display: flex;
         flex-direction: column;
@@ -70,6 +69,13 @@
             position: absolute;
             left: calc(50% + 94px);
             top: 538px;
+        }
+    }
+    &__bottom {
+        display: flex;
+        flex-direction: row;
+        &-text {
+            text-decoration: line-through;
         }
     }
 }
