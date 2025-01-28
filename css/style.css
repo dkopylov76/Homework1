@@ -104,7 +104,7 @@ body {
   gap: 51px;
   overflow: hidden;
   background: rgb(188, 236, 48);
-  background-repeat: repeat-x;
+  background-repeat: repeat-y;
   left: calc(50% - 720px);
 }
 .header__bottom-text {
