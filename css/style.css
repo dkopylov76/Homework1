@@ -140,7 +140,8 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(33, 32px);
-  gap: 32px;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
 }
 .games__card {
   height: 473px;
@@ -172,6 +173,24 @@ body {
   font-weight: 700;
   line-height: 39px;
   text-align: left;
+}
+.games__card-1 {
+  grid-row: 1/16;
+}
+.games__card-1 {
+  grid-row: 1/17;
+}
+.games__card-1 {
+  grid-row: 1/16;
+}
+.games__card-1 {
+  grid-row: 17/33;
+}
+.games__card-1 {
+  grid-row: 18/33;
+}
+.games__card-1 {
+  grid-row: 17/33;
 }
 
 .footer {
