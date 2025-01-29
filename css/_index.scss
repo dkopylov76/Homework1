@@ -98,3 +98,13 @@
         }
     }
 }
+.footer {
+    height: 150px;
+    background: rgb(225, 255, 143);
+    &__txt {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+        text-align: center;
+    }
+}
