@@ -69,8 +69,8 @@ body {
 }
 .header__img-1 {
   position: absolute;
-  left: calc(50% + 130px);
-  top: -240px;
+  left: calc(50% - 50px);
+  top: -340px;
   overflow: hidden;
 }
 .header__img-2 {
