@@ -58,10 +58,13 @@ body {
   border-radius: 60px;
   background: rgb(32, 32, 39);
   transition: background 1s;
+}
+.header__button-anchor {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-weight: 600;
   text-align: center;
+  text-decoration: none;
 }
 .header__button:hover {
   background: rgb(255, 255, 255);
