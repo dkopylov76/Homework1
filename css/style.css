@@ -114,6 +114,11 @@ body {
   text-transform: uppercase;
 }
 
+.games {
+  height: 1470px;
+  background: rgb(32, 32, 39);
+}
+
 .footer {
   height: 150px;
   background: rgb(189, 237, 53);
