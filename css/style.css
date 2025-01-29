@@ -139,6 +139,7 @@ body {
 .games__cards {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(33, 32px);
   gap: 32px;
 }
 .games__card {
