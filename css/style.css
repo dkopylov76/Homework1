@@ -116,7 +116,25 @@ body {
 
 .games {
   height: 1470px;
+  position: relative;
   background: rgb(32, 32, 39);
+}
+.games__h1 {
+  padding-top: 94px;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 78px;
+  text-align: left;
+}
+.games__text {
+  padding-top: 24px;
+  padding-bottom: 72px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
 }
 
 .footer {
