@@ -155,7 +155,7 @@ body {
   height: 36px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   padding: 8px 16px 10px 16px;
   border-radius: 52.58px;
