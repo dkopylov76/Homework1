@@ -192,6 +192,9 @@ body {
   line-height: 39px;
   text-align: left;
 }
+.games__card:hover {
+  transform: scale(1.05);
+}
 .games__card-1 {
   grid-row: 1/2;
 }
