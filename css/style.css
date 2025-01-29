@@ -69,7 +69,7 @@ body {
 }
 .header__img-1 {
   position: absolute;
-  left: calc(50% + 180px);
+  left: calc(50% + 130px);
   top: -240px;
   overflow: hidden;
 }
@@ -125,5 +125,4 @@ body {
   font-size: 24px;
   font-weight: 600;
   line-height: 29px;
-  text-align: center;
 }/*# sourceMappingURL=style.css.map */
