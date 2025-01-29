@@ -177,19 +177,19 @@ body {
 .games__card-1 {
   grid-row: 1/16;
 }
-.games__card-1 {
+.games__card-2 {
   grid-row: 1/17;
 }
-.games__card-1 {
+.games__card-3 {
   grid-row: 1/16;
 }
-.games__card-1 {
+.games__card-4 {
   grid-row: 17/33;
 }
-.games__card-1 {
+.games__card-5 {
   grid-row: 18/33;
 }
-.games__card-1 {
+.games__card-6 {
   grid-row: 17/33;
 }
 
