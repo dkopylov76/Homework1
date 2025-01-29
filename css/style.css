@@ -200,6 +200,7 @@ body {
 }
 .games__card-3 {
   grid-row: 1/2;
+  z-index: 1;
 }
 .games__card-4 {
   grid-row: 3/5;
