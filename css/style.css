@@ -59,6 +59,7 @@ body {
   color: rgb(255, 255, 255);
   background: rgb(32, 32, 39);
   transition: background 1s;
+  transition: color 1s;
 }
 .header__button-anchor {
   color: rgb(255, 255, 255);
