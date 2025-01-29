@@ -136,6 +136,15 @@ body {
   line-height: 32px;
   text-align: left;
 }
+.games__cards {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 32px;
+}
+.games__card {
+  display: flex;
+  flex-direction: column;
+}
 
 .footer {
   height: 150px;
@@ -144,7 +153,7 @@ body {
   justify-content: center;
   align-items: center;
 }
-.footer__txt {
+.footer__text {
   font-size: 24px;
   font-weight: 600;
   line-height: 29px;
