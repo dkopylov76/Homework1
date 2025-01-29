@@ -117,6 +117,8 @@ body {
 .footer {
   height: 150px;
   background: rgb(189, 237, 53);
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .footer__txt {
