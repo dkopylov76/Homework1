@@ -142,12 +142,15 @@ body {
   gap: 32px;
 }
 .games__card {
+  height: 473px;
   display: flex;
   flex-direction: column;
   border-radius: 30px;
   background: rgb(255, 255, 255);
 }
 .games__card-number {
+  margin-top: 33px;
+  margin-left: 32px;
   width: 108px;
   height: 36px;
   display: flex;
@@ -159,6 +162,8 @@ body {
   background: rgb(247, 247, 247);
 }
 .games__card-name {
+  margin-top: 16px;
+  margin-left: 32px;
   color: rgb(32, 32, 39);
   font-size: 32px;
   font-weight: 700;
