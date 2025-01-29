@@ -8,6 +8,10 @@ a {
   color: white;
 }
 
+a:hover {
+  color: black;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -63,7 +67,7 @@ body {
   text-align: center;
   text-decoration: none;
   background: rgb(32, 32, 39);
-  transition: color 1s, background 1s;
+  transition: background 1s;
 }
 .header__button:hover {
   background: rgb(255, 255, 255);
