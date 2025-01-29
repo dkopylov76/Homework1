@@ -144,6 +144,26 @@ body {
 .games__card {
   display: flex;
   flex-direction: column;
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+}
+.games__card-number {
+  width: 108px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 16px 10px 16px;
+  border-radius: 52.58px;
+  background: rgb(247, 247, 247);
+}
+.games__card-name {
+  color: rgb(32, 32, 39);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  text-align: left;
 }
 
 .footer {
