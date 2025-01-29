@@ -63,7 +63,7 @@ body {
   text-align: center;
   text-decoration: none;
   background: rgb(32, 32, 39);
-  transition: background 1s;
+  transition: color 1s, background 1s;
 }
 .header__button:hover {
   background: rgb(255, 255, 255);
