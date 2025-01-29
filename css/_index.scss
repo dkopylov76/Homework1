@@ -51,7 +51,7 @@
     &__img {
         &-1 {
             position: absolute;
-            left: 900px;
+            left: calc(50% + 180px);
             top: -240px;
             overflow: hidden;
         }
