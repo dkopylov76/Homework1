@@ -143,7 +143,6 @@ body {
 }
 .games__cards__card {
   height: 473px;
-  grid-column: span 4;
   display: flex;
   flex-direction: column;
   border-radius: 30px;
