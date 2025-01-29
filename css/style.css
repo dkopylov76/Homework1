@@ -22,9 +22,9 @@ body {
   background: rgb(225, 255, 143);
   background-size: contain;
   background-position: center;
+  overflow: hidden;
 }
 .header__content {
-  width: 768px;
   padding-top: 196px;
   display: flex;
   flex-direction: column;
@@ -69,9 +69,8 @@ body {
 }
 .header__img-1 {
   position: absolute;
-  left: 1928px;
-  top: -121.29px;
-  transform: rotate(108.45deg);
+  left: 900px;
+  top: -240px;
   overflow: hidden;
 }
 .header__img-2 {
