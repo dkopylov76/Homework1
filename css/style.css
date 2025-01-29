@@ -69,8 +69,8 @@ body {
 }
 .header__img-1 {
   position: absolute;
-  left: calc(50% + 195px);
-  bottom: 3px;
+  left: 1928px;
+  top: -121.29px;
   transform: rotate(108.45deg);
   overflow: hidden;
 }
