@@ -104,7 +104,6 @@ body {
   gap: 51px;
   overflow: hidden;
   background: rgb(188, 236, 48);
-  background-repeat: repeat-y;
   left: calc(50% - 720px);
 }
 .header__bottom-text {
@@ -117,7 +116,8 @@ body {
 
 .footer {
   height: 150px;
-  background: rgb(225, 255, 143);
+  background: rgb(189, 237, 53);
+  align-items: center;
 }
 .footer__txt {
   font-size: 24px;
