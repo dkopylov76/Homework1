@@ -55,6 +55,7 @@ body {
   font-weight: 600;
 }
 .header__button {
+  display: inline-block;
   width: 247px;
   height: 66px;
   align-items: center;
