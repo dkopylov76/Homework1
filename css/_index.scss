@@ -122,8 +122,9 @@
     &__cards {
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        grid-template-rows: 473px 32px 7px 32px 512px;
+        grid-template-rows: auto auto;
         column-gap: 32px;
+        row-gap: 32px;
     }
     &__card {
         height: 473px;
