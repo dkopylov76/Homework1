@@ -136,6 +136,26 @@ body {
   line-height: 32px;
   text-align: left;
 }
+.games__img-1 {
+  position: absolute;
+  left: calc(50% + 213px);
+  top: 77px;
+  transform: rotate(-7deg);
+  overflow: hidden;
+}
+.games__img-2 {
+  position: absolute;
+  left: calc(50% - 680px);
+  top: 822px;
+  transform: rotate(5.45deg);
+}
+.games__img-3 {
+  position: absolute;
+  left: calc(50% - 695px);
+  top: 770px;
+  left: 27.97px;
+  transform: rotate(5.45deg);
+}
 .games__cards {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
