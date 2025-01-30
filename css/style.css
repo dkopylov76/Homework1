@@ -252,22 +252,39 @@ body {
 .minigames__card-left {
   display: flex;
   flex-direction: column;
+  padding: 48px;
 }
-.minigames__card-name {
+.minigames__card-left-name {
   color: rgb(32, 32, 39);
   font-size: 48px;
   font-weight: 700;
   line-height: 59px;
   text-align: left;
+  padding-bottom: 24px;
 }
-.minigames__card-text {
+.minigames__card-left-text {
   color: rgb(32, 32, 39);
   font-size: 24px;
   font-weight: 400;
   line-height: 32px;
   text-align: left;
+  padding-bottom: 36px;
 }
-.minigames__card-img {
+.minigames__card-left-btn {
+  width: 247px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+.minigames__card-right-img {
   width: 600px;
   height: 500px;
 }
