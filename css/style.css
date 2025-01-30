@@ -75,8 +75,8 @@ body {
 }
 .header__img-1 {
   position: absolute;
-  left: calc(50% - 50px);
-  top: -340px;
+  left: calc(50% + 134px);
+  top: -333px;
   overflow: hidden;
 }
 .header__img-2 {
@@ -91,12 +91,12 @@ body {
 }
 .header__img-4 {
   position: absolute;
-  left: calc(50% + 159px);
+  right: calc(50% - 376px);
   top: 568px;
 }
 .header__img-5 {
   position: absolute;
-  left: calc(50% + 94px);
+  right: calc(50% - 265px);
   top: 538px;
 }
 .header__bottom {
@@ -110,7 +110,7 @@ body {
   gap: 51px;
   overflow: hidden;
   background: rgb(188, 236, 48);
-  left: calc(50% - 720px);
+  left: 0px;
 }
 .header__bottom-text {
   color: rgb(32, 32, 39);
