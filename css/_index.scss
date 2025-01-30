@@ -223,6 +223,8 @@
     &__card {
         display: flex;
         flex-direction: column;
+        border-radius: 30px;
+        background: rgb(255, 255, 255);
         &-name {
             color: rgb(32, 32, 39);
             font-size: 48px;
