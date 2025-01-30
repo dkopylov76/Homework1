@@ -245,9 +245,13 @@ body {
 }
 .minigames__card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   border-radius: 30px;
   background: rgb(255, 255, 255);
+}
+.minigames__card-left {
+  display: flex;
+  flex-direction: column;
 }
 .minigames__card-name {
   color: rgb(32, 32, 39);

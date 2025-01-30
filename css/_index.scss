@@ -222,9 +222,13 @@
     }
     &__card {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         border-radius: 30px;
         background: rgb(255, 255, 255);
+        &-left {
+            display: flex;
+            flex-direction: column;
+        }
         &-name {
             color: rgb(32, 32, 39);
             font-size: 48px;
