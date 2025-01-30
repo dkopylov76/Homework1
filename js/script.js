@@ -7,3 +7,7 @@ alert(a2);
 //task 2
 let iPhone = 2007;
 alert(iPhone);
+
+//task 3
+const javaCreator = 'Брендан Эйх'
+alert(javaCreator);
