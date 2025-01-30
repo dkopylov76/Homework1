@@ -19,3 +19,8 @@ alert(b + c);
 alert(b - c);
 alert(b * c);
 alert(b / c);
+
+//task 5
+let a = 2;
+result = 2 ** 5;
+alert(result);
