@@ -68,4 +68,4 @@ alert(`Прибавляем 10: ${result2}.`);
 result3 = result2 / 2;
 alert(`Делим на 2: ${result3}.`);
 result4 = result3 - number;
-alert(`Вычитаем загаданное число и получаем: ${result4}.`);
+alert(`Вычитаем загаданное число ${number} и получаем: ${result4}.`);
