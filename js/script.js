@@ -53,3 +53,7 @@ user = {
 alert(user.name);
 alert(user.age);
 alert(user.isAdmin);
+
+//task 10
+let name1 = prompt('Как Вас зовут?')
+alert(`Привет, ${name1}!`)
