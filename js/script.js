@@ -43,3 +43,10 @@ alert(num);
 //task 8
 let age = prompt('Сколько вам лет?')
 alert(age);
+
+//task 9
+user = {
+    name: 'Вася',
+    age: 35,
+    isAdmin: true
+    }
