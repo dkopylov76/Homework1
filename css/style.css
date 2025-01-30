@@ -255,6 +255,7 @@ body {
   padding: 48px;
 }
 .minigames__card-left-name {
+  width: 504px;
   color: rgb(32, 32, 39);
   font-size: 48px;
   font-weight: 700;
@@ -285,8 +286,10 @@ body {
   text-align: center;
 }
 .minigames__card-right-img {
-  width: 600px;
   height: 500px;
+  display: flex;
+  border-radius: 30px;
+  background: rgb(173, 97, 255);
 }
 
 .footer {
