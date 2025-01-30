@@ -24,3 +24,8 @@ alert(b / c);
 let a = 2;
 result = 2 ** 5;
 alert(result);
+
+//task 6
+let d = 9;
+let e = 2;
+alert(d % e);
