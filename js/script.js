@@ -56,4 +56,16 @@ alert(user.isAdmin);
 
 //task 10
 let name1 = prompt('Как Вас зовут?')
-alert(`Привет, ${name1}!`)
+alert(`Привет, ${name1}!`);
+
+//task add
+let number = prompt('Загадайте любое число.');
+alert(`Ваше число: ${number}.`);
+result1 = number * 2;
+alert(`Ваше число умножаем на 2: ${result1}.`);
+result2 = result1 + 10;
+alert(`Прибавляем 10: ${result2}.`);
+result3 = result2 / 2;
+alert(`Делим на 2: ${result3}.`);
+result4 = result3 - number;
+alert(`Вычитаем загаданное число и получаем: ${result4}.`);
