@@ -50,3 +50,6 @@ user = {
     age: 35,
     isAdmin: true
     }
+alert(user.name);
+alert(user.age);
+alert(user.isAdmin);
