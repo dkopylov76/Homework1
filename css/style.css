@@ -442,4 +442,15 @@ body {
     font-size: 40px;
     line-height: 49px;
   }
+  .minigames__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .minigames__card {
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    background: rgb(255, 255, 255);
+  }
 }/*# sourceMappingURL=style.css.map */
