@@ -79,6 +79,9 @@ body {
   top: -333px;
   overflow: hidden;
 }
+.header__img-11 {
+  display: none;
+}
 .header__img-2 {
   position: absolute;
   left: calc(50% - 657px);
@@ -392,12 +395,8 @@ body {
     font-size: 16px;
     text-align: left;
   }
-  .header__img-1 {
-    display: none;
+  .header__img-11 {
     position: absolute;
-    background-image: url(../img/mobilebigstar.svg);
-    width: 223.52px;
-    height: 238.57px;
     left: 50%;
     top: -40.43px;
     transform: rotate(108.68deg);
