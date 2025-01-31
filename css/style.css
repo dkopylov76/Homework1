@@ -79,7 +79,7 @@ body {
   top: -333px;
   overflow: hidden;
 }
-.header__img-11 {
+.header__img-8 {
   display: none;
 }
 .header__img-2 {
@@ -398,7 +398,7 @@ body {
   .header__img-1 {
     display: none;
   }
-  .header__img-11 {
+  .header__img-8 {
     position: absolute;
     left: calc(50% - 151px);
     top: 0px;
