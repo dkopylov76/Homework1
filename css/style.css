@@ -392,4 +392,7 @@ body {
     font-size: 16px;
     text-align: left;
   }
+  .games {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
