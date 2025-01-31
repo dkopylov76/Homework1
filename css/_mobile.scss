@@ -81,4 +81,12 @@
     .games {
         display: none;
     }
+    .minigames {
+        &__h1 {
+            padding-top: 48px;
+            padding-bottom: 48px;
+            font-size: 40px;
+            line-height: 49px;
+        }
+    }
 }
