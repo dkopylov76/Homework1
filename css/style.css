@@ -299,6 +299,18 @@ body {
 .minigames__card-right-img-2 {
   background: rgb(253, 173, 0);
 }
+.minigames__card-right-img-3 {
+  background: rgb(86, 94, 239);
+}
+.minigames__card-right-img-4 {
+  background: rgb(153, 209, 0);
+}
+.minigames__card-right-img-5 {
+  background: rgb(39, 26, 88);
+}
+.minigames__card-right-img-6 {
+  background: rgb(39, 26, 88);
+}
 
 .footer {
   height: 150px;
