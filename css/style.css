@@ -253,9 +253,9 @@ body {
   display: flex;
   flex-direction: column;
   padding: 48px;
+  width: 50%;
 }
 .minigames__card-left-name {
-  width: 504px;
   color: rgb(32, 32, 39);
   font-size: 48px;
   font-weight: 700;
@@ -285,11 +285,19 @@ body {
   font-weight: 600;
   text-align: center;
 }
+.minigames__card-right {
+  width: 50%;
+}
 .minigames__card-right-img {
   height: 500px;
   display: flex;
   border-radius: 30px;
+}
+.minigames__card-right-img-1 {
   background: rgb(173, 97, 255);
+}
+.minigames__card-right-img-2 {
+  background: rgb(253, 173, 0);
 }
 
 .footer {
