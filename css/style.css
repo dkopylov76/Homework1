@@ -394,6 +394,7 @@ body {
   }
   .header__img-1 {
     position: absolute;
+    background-image: url(../img/mobilebigstar.svg);
     width: 223.52px;
     height: 238.57px;
     left: 50%;
