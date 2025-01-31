@@ -387,7 +387,7 @@ body {
   .header__bottom {
     width: 1717.4px;
     height: 51.34px;
-    margin-top: 131px;
+    margin-top: 105px;
     gap: 27px;
     left: 0px;
   }
@@ -400,8 +400,8 @@ body {
   }
   .header__img-11 {
     position: absolute;
-    left: 50%;
-    top: -40.43px;
+    left: calc(50% - 151px);
+    top: 0px;
     transform: rotate(108.68deg);
     overflow: hidden;
   }
