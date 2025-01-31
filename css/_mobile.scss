@@ -39,6 +39,7 @@
         }
         &__img {
             &-1 {
+                display: none;
                 position: absolute;
                 background-image: url(../img/mobilebigstar.svg);
                 width: 223.52px;
