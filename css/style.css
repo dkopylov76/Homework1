@@ -448,7 +448,7 @@ body {
     gap: 24px;
   }
   .minigames__card {
-    box-sizing: border-box;
+    width: 343px;
     display: flex;
     flex-direction: column-reverse;
     border-radius: 30px;
