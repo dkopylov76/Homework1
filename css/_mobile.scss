@@ -1,4 +1,4 @@
-@media (max-width: 700px) {
+@media (max-width: 376px) {
     .center {
         padding-left: 16px;
         padding-right: 16px;
@@ -35,6 +35,45 @@
             &-text {
                 font-size: 16px;
                 text-align: left;
+            }
+        }
+        &__img {
+            &-1 {
+                position: absolute;
+                width: 223.52px;
+                height: 238.57px;
+                left: calc(50%);
+                top: -40.43px;
+                transform: rotate(108.68deg);
+                overflow: hidden;
+            }
+            &-2 {
+                position: absolute;
+                width: 35px;
+                height: 35px;
+                left: calc(50% - 151px);
+                top: 97px;
+            }
+            &-3 {
+                position: absolute;
+                width: 21px;
+                height: 21px;
+                left: calc(50% - 97px);
+                top: 64px;
+            }
+            &-4 {
+                position: absolute;
+                width: 39px;
+                height: 41px;
+                right: calc(50% - 154px);
+                bottom: 28px;
+            }
+            &-5 {
+                position: absolute;
+                width: 18px;
+                height: 18px;
+                right: calc(50% - 102px);
+                bottom: 125px;
             }
         }
     }
