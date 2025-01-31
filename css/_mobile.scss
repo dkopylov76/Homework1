@@ -26,5 +26,16 @@
             height: 55px;
             font-size: 16px;
         }
+        &__bottom {
+            width: 1717.4px;
+            height: 51.34px;
+            margin-top: 131px;
+            gap: 27px;
+            left: 0px;
+            &-text {
+                font-size: 16px;
+                text-align: left;
+            }
+        }
     }
 }
