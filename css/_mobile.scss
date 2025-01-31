@@ -1,0 +1,19 @@
+@media (max-width: 700px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header {
+        position: relative;
+        height: 700px;
+        background: rgb(225, 255, 143);
+        background-size: contain;
+        background-position: center;
+        overflow: hidden;
+        &__content {
+            padding-top: 147px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+}

@@ -350,4 +350,11 @@ body {
   font-size: 24px;
   font-weight: 600;
   line-height: 29px;
+}
+
+@media (max-width: 700px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
 }/*# sourceMappingURL=style.css.map */
