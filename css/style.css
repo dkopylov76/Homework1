@@ -316,6 +316,28 @@ body {
 .minigames__card-right-img-6 {
   background: rgb(39, 26, 88);
 }
+.minigames__img-1 {
+  position: absolute;
+  right: calc(50% - 596px);
+  top: 93px;
+  transform: rotate(7.08deg);
+}
+.minigames__img-2 {
+  position: absolute;
+  right: calc(50% - 675px);
+  top: 126px;
+  transform: rotate(5.45deg);
+}
+.minigames__img-3 {
+  position: absolute;
+  right: calc(50% - 570px);
+  bottom: 45px;
+}
+.minigames__img-4 {
+  position: absolute;
+  right: calc(50% - 668px);
+  bottom: 65px;
+}
 
 .footer {
   height: 150px;

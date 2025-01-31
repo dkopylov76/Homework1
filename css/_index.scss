@@ -293,6 +293,30 @@
             }
         }
     }
+    &__img {
+        &-1 {
+            position: absolute;
+            right: calc(50% - 596px);
+            top: 93px;
+            transform: rotate(7.08deg);
+        }
+        &-2 {
+            position: absolute;
+            right: calc(50% - 675px);
+            top: 126px;
+            transform: rotate(5.45deg);
+        }
+        &-3 {
+            position: absolute;
+            right: calc(50% - 570px);
+            bottom: 45px;
+        }
+        &-4 {
+            position: absolute;
+            right: calc(50% - 668px);
+            bottom: 65px;
+        }
+    }
 }
 .footer {
     height: 150px;
