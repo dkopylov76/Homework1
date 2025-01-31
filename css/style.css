@@ -395,6 +395,9 @@ body {
     font-size: 16px;
     text-align: left;
   }
+  .header__img-1 {
+    display: none;
+  }
   .header__img-11 {
     position: absolute;
     left: 50%;
