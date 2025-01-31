@@ -365,7 +365,7 @@ body {
     align-items: center;
   }
   .header__h1 {
-    color: rgb(32, 32, 39);
+    width: 262px;
     font-size: 40px;
     line-height: 49px;
     text-align: center;
