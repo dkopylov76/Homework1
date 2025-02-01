@@ -122,9 +122,9 @@
                 }
             }
             &-right {
-                width: 100%;
+                max-width: 343px;
                 &-img {
-                    height: 285px;
+                    max-height: 285px;
                 }
             }
         }
