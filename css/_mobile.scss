@@ -94,12 +94,7 @@
         &__card {
             max-width: 343px;
             width: 100%;
-            &-avers {
-                flex-direction: column-reverse;
-            }
-            &-revers {
-                flex-direction: column;
-            }
+            flex-direction: column-reverse;
             &-left {
                 display: flex;
                 flex-direction: column;
@@ -126,6 +121,9 @@
                     max-height: 285px;
                 }
             }
+        }
+        &__img {
+            display: none;
         }
     }
 }

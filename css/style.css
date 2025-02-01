@@ -291,7 +291,6 @@ body {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-weight: 600;
-  text-align: center;
   transition: background 1s;
 }
 .minigames__card-left-button:hover {
@@ -453,12 +452,7 @@ body {
   .minigames__card {
     max-width: 343px;
     width: 100%;
-  }
-  .minigames__card-avers {
     flex-direction: column-reverse;
-  }
-  .minigames__card-revers {
-    flex-direction: column;
   }
   .minigames__card-left {
     display: flex;
@@ -483,5 +477,8 @@ body {
   }
   .minigames__card-right-img {
     max-height: 285px;
+  }
+  .minigames__img {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */
