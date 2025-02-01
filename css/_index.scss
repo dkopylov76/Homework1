@@ -56,9 +56,6 @@
             top: -333px;
             overflow: hidden;
         }
-        &-8 {
-            display: none;
-        }
         &-2 {
             position: absolute;
             left: calc(50% - 657px);
@@ -78,6 +75,10 @@
             position: absolute;
             right: calc(50% - 265px);
             top: 538px;
+        }
+        &-6 {
+            position: absolute;
+            display: none;
         }
     }
     &__bottom {
