@@ -452,6 +452,7 @@ body {
   }
   .minigames__card {
     max-width: 343px;
+    width: 100%;
   }
   .minigames__card-avers {
     flex-direction: column-reverse;
@@ -463,7 +464,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 29px;
-    max-width: 343px;
   }
   .minigames__card-left-name {
     font-size: 32px;
@@ -480,9 +480,6 @@ body {
     width: 285px;
     height: 55px;
     font-size: 16px;
-  }
-  .minigames__card-right {
-    max-width: 343px;
   }
   .minigames__card-right-img {
     max-height: 285px;
