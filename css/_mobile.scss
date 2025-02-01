@@ -126,7 +126,18 @@
             }
         }
         &__img {
-            display: none;
+            &-1 {
+                display: none;
+            }
+            &-2 {
+                display: none;
+            }
+            &-3 {
+                display: none;
+            }
+            &-4 {
+                display: none;
+            }
         }
     }
 }

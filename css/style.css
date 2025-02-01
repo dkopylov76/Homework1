@@ -484,7 +484,16 @@ body {
   .minigames__card-right-img {
     max-height: 285px;
   }
-  .minigames__img {
+  .minigames__img-1 {
+    display: none;
+  }
+  .minigames__img-2 {
+    display: none;
+  }
+  .minigames__img-3 {
+    display: none;
+  }
+  .minigames__img-4 {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */
