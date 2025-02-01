@@ -224,10 +224,15 @@
         gap: 32px;
     }
     &__card {
-        display: flex;
-        flex-direction: row;
         border-radius: 30px;
         background: rgb(255, 255, 255);
+        display: flex;
+        &-avers {
+            flex-direction: row;
+        }
+        &-revers {
+            flex-direction: row-reverse;
+        }
         &-left {
             display: flex;
             flex-direction: column;

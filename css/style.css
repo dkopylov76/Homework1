@@ -247,10 +247,15 @@ body {
   gap: 32px;
 }
 .minigames__card {
-  display: flex;
-  flex-direction: row;
   border-radius: 30px;
   background: rgb(255, 255, 255);
+  display: flex;
+}
+.minigames__card-avers {
+  flex-direction: row;
+}
+.minigames__card-revers {
+  flex-direction: row-reverse;
 }
 .minigames__card-left {
   display: flex;
@@ -448,7 +453,7 @@ body {
     gap: 24px;
   }
   .minigames__card {
-    width: 343px;
+    max-width: 343px;
     display: flex;
     flex-direction: column-reverse;
     border-radius: 30px;
