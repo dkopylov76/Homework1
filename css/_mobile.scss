@@ -38,6 +38,7 @@
             }
         }
         &__img {
+            background-image: url(../img/mobilebigstar.svg);
             &-1 {
                 display: none;
             }
@@ -100,6 +101,7 @@
                 flex-direction: column;
                 padding: 29px;
                 &-name {
+                    width: 285px;
                     font-size: 32px;
                     line-height: 39px;
                     text-align: left;

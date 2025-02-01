@@ -400,6 +400,9 @@ body {
     font-size: 16px;
     text-align: left;
   }
+  .header__img {
+    background-image: url(../img/mobilebigstar.svg);
+  }
   .header__img-1 {
     display: none;
   }
@@ -461,6 +464,7 @@ body {
     padding: 29px;
   }
   .minigames__card-left-name {
+    width: 285px;
     font-size: 32px;
     line-height: 39px;
     text-align: left;
