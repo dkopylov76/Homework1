@@ -448,15 +448,37 @@ body {
     line-height: 49px;
   }
   .minigames__cards {
-    display: flex;
-    flex-direction: column;
     gap: 24px;
   }
   .minigames__card {
     max-width: 343px;
-    display: flex;
+  }
+  .minigames__card-avers {
     flex-direction: column-reverse;
-    border-radius: 30px;
-    background: rgb(255, 255, 255);
+  }
+  .minigames__card-revers {
+    flex-direction: column;
+  }
+  .minigames__card-left {
+    display: flex;
+    flex-direction: column;
+    padding: 29px;
+    width: 100%;
+  }
+  .minigames__card-left-name {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: left;
+    padding-bottom: 16px;
+  }
+  .minigames__card-left-text {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 32px;
+  }
+  .minigames__card-left-button {
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
   }
 }/*# sourceMappingURL=style.css.map */
