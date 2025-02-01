@@ -401,18 +401,8 @@ body {
     font-size: 16px;
     text-align: left;
   }
-  .header__img {
-    background-image: url(../img/mobilebigstar.svg);
-  }
   .header__img-1 {
     display: none;
-  }
-  .header__img-8 {
-    position: absolute;
-    left: calc(50% - 151px);
-    top: 0px;
-    transform: rotate(108.68deg);
-    overflow: hidden;
   }
   .header__img-2 {
     position: absolute;
@@ -441,6 +431,14 @@ body {
     height: 18px;
     right: calc(50% - 102px);
     top: 557px;
+  }
+  .header__img-6 {
+    display: block;
+    position: absolute;
+    left: calc(50% - 151px);
+    top: 0px;
+    transform: rotate(108.68deg);
+    overflow: hidden;
   }
   .games {
     display: none;

@@ -38,16 +38,8 @@
             }
         }
         &__img {
-            background-image: url(../img/mobilebigstar.svg);
             &-1 {
                 display: none;
-            }
-            &-8 {
-                position: absolute;
-                left: calc(50% - 151px);
-                top: 0px;
-                transform: rotate(108.68deg);
-                overflow: hidden;
             }
             &-2 {
                 position: absolute;
@@ -76,6 +68,14 @@
                 height: 18px;
                 right: calc(50% - 102px);
                 top: 557px;
+            }
+            &-6 {
+                display: block;
+                position: absolute;
+                left: calc(50% - 151px);
+                top: 0px;
+                transform: rotate(108.68deg);
+                overflow: hidden;
             }
         }
     }
