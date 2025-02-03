@@ -74,8 +74,8 @@ switch (monthNumber) {
 }
 
 //taskadd
-let num = prompt('Пожалуйста, введите любое число');
-if (Number(num) = NaN) {
+let num = Number(prompt('Пожалуйста, введите любое число'));
+if (num = NaN) {
     console.log('Вы ввели что-то не то');
 } else {
     if ((num % 2) === 0) {
