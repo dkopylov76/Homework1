@@ -1,3 +1,4 @@
+//task 1
 let password = 'passw';
 let userPass = prompt('Введите пароль');
 if (password === userPass) {
@@ -5,3 +6,19 @@ if (password === userPass) {
 } else {
     console.log("Пароль введен неправильно");
 }
+
+//task 2
+let c = Number(prompt('Введите число'));
+if (с > 0 && с < 10) {
+    console.log('Верно');
+} else {
+    console.log('Неверно');
+}
+
+//task 3
+
+//task 4
+
+//task 5
+
+//taskadd
