@@ -74,3 +74,13 @@ switch (monthNumber) {
 }
 
 //taskadd
+let num = prompt('Пожалуйста, введите любое число');
+if (Number(num) = NaN) {
+    console.log('Вы ввели что-то не то');
+} else {
+    if ((num % 2) === 1) {
+        console.log ('Число нечетное');
+    } else {
+        console.log ('Число четное');
+    }
+}
