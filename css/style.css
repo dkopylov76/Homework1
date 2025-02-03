@@ -99,6 +99,10 @@ body {
   right: calc(50% - 265px);
   top: 538px;
 }
+.header__img-6 {
+  position: absolute;
+  display: none;
+}
 .header__bottom {
   position: absolute;
   width: 3220px;
@@ -224,6 +228,126 @@ body {
   grid-row: 3/5;
 }
 
+.minigames {
+  position: relative;
+  background: rgb(32, 32, 39);
+  padding-bottom: 144px;
+}
+.minigames__h1 {
+  padding-top: 46px;
+  padding-bottom: 72px;
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  text-align: left;
+}
+.minigames__cards {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.minigames__card {
+  border-radius: 30px;
+  background: rgb(255, 255, 255);
+  display: flex;
+}
+.minigames__card-avers {
+  flex-direction: row;
+}
+.minigames__card-revers {
+  flex-direction: row-reverse;
+}
+.minigames__card-left {
+  display: flex;
+  flex-direction: column;
+  padding: 48px;
+  width: 50%;
+}
+.minigames__card-left-name {
+  color: rgb(32, 32, 39);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  text-align: left;
+  padding-bottom: 24px;
+}
+.minigames__card-left-text {
+  width: 457px;
+  color: rgb(32, 32, 39);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  padding-bottom: 36px;
+}
+.minigames__card-left-button {
+  width: 247px;
+  height: 66px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  transition: background 1s;
+}
+.minigames__card-left-button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(32, 32, 39);
+}
+.minigames__card-right {
+  width: 50%;
+}
+.minigames__card-right-img {
+  height: 500px;
+  display: flex;
+  border-radius: 30px;
+}
+.minigames__card-right-img-1 {
+  background: rgb(173, 97, 255);
+}
+.minigames__card-right-img-2 {
+  background: rgb(253, 173, 0);
+}
+.minigames__card-right-img-3 {
+  background: rgb(86, 94, 239);
+}
+.minigames__card-right-img-4 {
+  background: rgb(39, 26, 88);
+}
+.minigames__card-right-img-5 {
+  background: rgb(153, 209, 0);
+}
+.minigames__card-right-img-6 {
+  background: rgb(39, 26, 88);
+}
+.minigames__img-1 {
+  position: absolute;
+  right: calc(50% - 596px);
+  top: 93px;
+  transform: rotate(7.08deg);
+}
+.minigames__img-2 {
+  position: absolute;
+  right: calc(50% - 675px);
+  top: 126px;
+  transform: rotate(5.45deg);
+}
+.minigames__img-3 {
+  position: absolute;
+  right: calc(50% - 570px);
+  bottom: 45px;
+}
+.minigames__img-4 {
+  position: absolute;
+  right: calc(50% - 668px);
+  bottom: 65px;
+}
+
 .footer {
   height: 150px;
   background: rgb(189, 237, 53);
@@ -235,4 +359,139 @@ body {
   font-size: 24px;
   font-weight: 600;
   line-height: 29px;
+}
+
+@media (max-width: 376px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .header {
+    height: 700px;
+  }
+  .header__content {
+    padding-top: 147px;
+    align-items: center;
+  }
+  .header__h1 {
+    width: 262px;
+    font-size: 40px;
+    line-height: 49px;
+    text-align: center;
+  }
+  .header__text {
+    padding-bottom: 36px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .header__button {
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+  }
+  .header__bottom {
+    width: 1717.4px;
+    height: 51.34px;
+    margin-top: 105px;
+    gap: 27px;
+    left: 0px;
+  }
+  .header__bottom-text {
+    font-size: 16px;
+    text-align: left;
+  }
+  .header__img-1 {
+    display: none;
+  }
+  .header__img-2 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: calc(50% - 151px);
+    top: 97px;
+  }
+  .header__img-3 {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: calc(50% - 97px);
+    top: 64px;
+  }
+  .header__img-4 {
+    position: absolute;
+    width: 39px;
+    height: 41px;
+    right: calc(50% - 154px);
+    top: 580px;
+  }
+  .header__img-5 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: calc(50% - 102px);
+    top: 557px;
+  }
+  .header__img-6 {
+    display: block;
+    position: absolute;
+    right: calc(50% - 275px);
+    top: -80px;
+    overflow: hidden;
+  }
+  .games {
+    display: none;
+  }
+  .minigames__h1 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-size: 40px;
+    line-height: 49px;
+  }
+  .minigames__cards {
+    gap: 24px;
+  }
+  .minigames__card {
+    max-width: 343px;
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .minigames__card-left {
+    display: flex;
+    flex-direction: column;
+    padding: 29px;
+  }
+  .minigames__card-left-name {
+    width: 285px;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: left;
+    padding-bottom: 16px;
+  }
+  .minigames__card-left-text {
+    width: 285px;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 32px;
+  }
+  .minigames__card-left-button {
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+  }
+  .minigames__card-right-img {
+    max-height: 285px;
+  }
+  .minigames__img-1 {
+    display: none;
+  }
+  .minigames__img-2 {
+    display: none;
+  }
+  .minigames__img-3 {
+    display: none;
+  }
+  .minigames__img-4 {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */
