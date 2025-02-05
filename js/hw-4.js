@@ -14,7 +14,7 @@ do {
 
 //task 3
 let x = 0;
-while (x < 22) {
+while (x <= 22) {
     if (x < 7) {
         x++;
     continue;
