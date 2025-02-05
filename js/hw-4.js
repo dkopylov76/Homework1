@@ -55,6 +55,6 @@ for (let friday = Number(prompt('Введите число первой пятн
         "Четверг": friday+6,
     }
     for (let key in day) {
-        console.log(`${[Пятница]} — ${day[Пятница]}-е число.`);
+        console.log(`${["Пятница"]} — ${day["Пятница"]}-е число.`);
         }
     }
