@@ -6,8 +6,8 @@ while (i < 2) {
 }
 
 //task 2
-let i = 0;
-while (i < 5) {
-    console.log(i+1);
-    i++;
+let num = 0;
+while (num < 5) {
+    console.log(num+1);
+    num++;
 }
