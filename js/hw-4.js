@@ -39,6 +39,6 @@ let num = 0;
 do {
     n /= 2;
     num += 1;
-    console.log(n);
-    console.log(num);
     } while (n >= 50);
+console.log(n);
+console.log(num);
