@@ -44,7 +44,7 @@ console.log(n);
 console.log(num);
 
 //task 6
-let friday = 1;
+let friday = prompt('Введите число первой пятницы месяца (от 1 до 7)');
 for (let m = 1; m <= 31; m++) {
     if ((m = friday) || (m = friday+7) || (m = friday+14) || (m = friday+21) || (m = friday+28)) {
         break;
