@@ -375,6 +375,7 @@ body {
     padding-right: 16px;
   }
   .header {
+    overflow: hidden;
     height: 700px;
   }
   .header__content {
@@ -445,7 +446,6 @@ body {
     position: absolute;
     right: calc(50% - 275px);
     top: -80px;
-    overflow: hidden;
   }
   .games {
     display: none;
