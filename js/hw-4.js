@@ -44,7 +44,7 @@ console.log(n);
 console.log(num);
 
 //task 6
-for (let friday = Number(prompt('Введите число первой пятницы месяца (от 1 до 7)')); friday < 31; friday++) {
+for (let friday = Number(prompt('Введите число первой пятницы месяца (от 1 до 7)')); friday < 31; friday+7) {
     let day = {
         "Пятница": friday,
         "Суббота": friday+1,
