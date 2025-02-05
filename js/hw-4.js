@@ -7,13 +7,18 @@ while (i < 2) {
 
 //task 2
 let num = 0;
-while (num < 5) {
+do {
     console.log(num+1);
     num++;
-}
+    } while(num < 5);
 
-let numb = 0;
-do {
-    console.log(numb+1);
-    numb++;
-    } while(numb <= 5);
+//task 3
+let x = 0;
+while (x < 22) {
+    if (x < 7) {
+        x++;
+    continue;
+    }
+    console.log(x);
+    x++;
+}
