@@ -6,11 +6,11 @@ while (i < 2) {
 }
 
 //task 2
-let num = 0;
+let numb = 0;
 do {
-    console.log(num+1);
-    num++;
-    } while(num < 5);
+    console.log(numb+1);
+    numb++;
+    } while(numb < 5);
 
 //task 3
 let x = 0;
@@ -32,3 +32,13 @@ let obj = {
 for (let key in obj) {
     console.log(`${key} — зарплата ${obj[key]} долларов.`);
     }
+
+//task 5
+let n = 1000;
+let num = 0;
+do {
+    n /= 2;
+    num += 1;
+    console.log(n);
+    console.log(num);
+    } while (n >= 50);
