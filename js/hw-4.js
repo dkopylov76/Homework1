@@ -44,16 +44,17 @@ console.log(n);
 console.log(num);
 
 //task 6
-let friday = Number(prompt('Введите число первой пятницы месяца (от 1 до 7)'));
-let day = {
-    "Пятница": friday,
-    "Суббота": friday+1,
-    "Воскресенье": friday+2,
-    "Понедельник": friday+3,
-    "Вторник": friday+4,
-    "Среда": friday+5,
-    "Четверг": friday+6,
-}
-for (let key in day) {
-    console.log(`${key} — ${day[key]}-е число.`);
+for (let friday = Number(prompt('Введите число первой пятницы месяца (от 1 до 7)')); friday < 31; friday++) {
+    let day = {
+        "Пятница": friday,
+        "Суббота": friday+1,
+        "Воскресенье": friday+2,
+        "Понедельник": friday+3,
+        "Вторник": friday+4,
+        "Среда": friday+5,
+        "Четверг": friday+6,
+    }
+    for (let key in day) {
+        console.log(`${[Пятница]} — ${day[Пятница]}-е число.`);
+        }
     }
