@@ -106,6 +106,7 @@
     position: relative;
     background: rgb(32, 32, 39);
     padding-bottom: 50px;
+    overflow: hidden;
     &__h1 {
         padding-top: 94px;
         color: rgb(255, 255, 255);
@@ -129,7 +130,6 @@
             left: calc(50% + 213px);
             top: 77px;
             transform: rotate(-7deg);
-            overflow: hidden;
         }
         &-2 {
             position: absolute;
@@ -165,7 +165,6 @@
             flex-direction: row;
             justify-content: center;
             align-items: center;
-            padding: 8px 16px 10px 16px;
             border-radius: 52.58px;
             background: rgb(247, 247, 247);
             color: rgb(32, 32, 39);
@@ -186,22 +185,28 @@
             transform: scale(1.05);
         }
         &-1 {
+            height: 473px;
             grid-row: 1 / 2;
         }
         &-2 {
+            height: 512px;
             grid-row: 1 / 3;
         }
         &-3 {
+            height: 473px;
             grid-row: 1 / 2;
             z-index: 1;
         }
         &-4 {
+            height: 551px;
             grid-row: 3 / 5;
         }
         &-5 {
+            height: 512px;
             grid-row: 4 / 5;
         }
         &-6 {
+            height: 551px;
             grid-row: 3 / 5;
         }
     }
@@ -255,6 +260,9 @@
                 line-height: 32px;
                 text-align: left;
                 padding-bottom: 36px;
+                &-wide {
+                    width: 497px;
+                }
             }
             &-button {
                 width: 247px;
