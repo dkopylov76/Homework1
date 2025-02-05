@@ -45,10 +45,15 @@ console.log(num);
 
 //task 6
 let friday = prompt('Введите число первой пятницы месяца (от 1 до 7)');
-let m = 1
-do {
-    if (m = friday+7) {
-        console.log(`Сегодня пятница, ${m}-е число. Необходимо подготовить отчет.`);
-        m++;
-        }
-    } while (m <= 31);
+let day = {
+    "Пятница": friday,
+    "Суббота": friday+1,
+    "Воскресенье": friday+2,
+    "Понедельник": friday+3,
+    "Вторник": friday+4,
+    "Среда": friday+5,
+    "Четверг": friday+6,
+}
+for (let key in day) {
+    console.log(`${key} — ${day[key]}-е число.`);
+    }
