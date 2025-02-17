@@ -1,4 +1,4 @@
-function defineMoreLess() {
+//function defineMoreLess() {
     alert('Введите два числа.');
     let firstNumber = Number(prompt('Первое число?'));
     let secondNumber = Number(prompt('Второе число?'));
@@ -9,4 +9,4 @@ function defineMoreLess() {
     } else {
         alert('Числа равны.');
     }
-}
+//}
