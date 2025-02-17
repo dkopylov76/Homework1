@@ -7,6 +7,6 @@
     } else if (firstNumber > secondNumber) {
         alert(`Меньшее число ${secondNumber}.`);
     } else {
-        alert('Числа равны.');
+        alert(`Числа равны - ${firstNumber}.`);
     }
 //}
