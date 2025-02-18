@@ -67,10 +67,24 @@ function defineCorrectNumber() {
     let secondNumber = prompt('Второе число?');
 
     if (isNaN(firstNumber) || isNaN(secondNumber)) {
-        alert('Одно или оба значения не являются числом');
+        alert('Одно или оба значения не являются числом.');
     } else {
         console.log(firstNumber * secondNumber);
     }
 }
 
 defineCorrectNumber();
+
+//task 6
+function defineCubeNumber() {
+    let num = prompt('Введите число.');
+    
+    if (isNaN(num)) {
+        alert('Переданный параметр не является числом');
+    } else {
+        let numCube = Math.pow(num, 3);
+        console.log(`${num} в кубе равняется ${numCube}.`);
+    }
+}
+
+defineCubeNumber();
