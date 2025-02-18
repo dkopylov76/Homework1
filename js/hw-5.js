@@ -66,7 +66,7 @@ function defineCorrectNumber() {
     let firstNumber = prompt('Первое число?');
     let secondNumber = prompt('Второе число?');
 
-    if (Double.isNaN(firstNumber) || Double.isNaN(secondNumber)) {
+    if (isNaN(firstNumber) || isNaN(secondNumber)) {
         alert('Одно или оба значения не являются числом');
     } else {
         console.log(firstNumber * secondNumber);
