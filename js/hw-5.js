@@ -31,7 +31,7 @@ defineEvenOdd()
 //task 3
 function defineSquare() {
     let num = Number(prompt('Введите число:'));
-    numSquare = Math.pow(num, 2);
+    let numSquare = Math.pow(num, 2);
     console.log(`Квадрат ${num} равен ${numSquare}.`);
 }
 
