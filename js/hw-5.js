@@ -113,7 +113,7 @@ const circle2 = {
     }
 }
 
-console.log(circle1.getArea());
-console.log(circle1.getPerimeter());
-console.log(circle2.getArea());
-console.log(circle2.getPerimeter());
+console.log(`Площадь первого круга ${circle1.getArea()}.`);
+console.log(`Длина окружности первого круга ${circle1.getPerimeter()}.`);
+console.log(`Площадь второго круга ${circle2.getArea()}.`);
+console.log(`Длина окружности второго круга ${circle2.getPerimeter()}.`);
