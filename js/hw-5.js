@@ -51,7 +51,7 @@ function defineAge() {
 
     if (age < 0 || age === null) {
         alert('Вы ввели неправильное значение.');
-    } else if (age >= 0 && age < 13) {
+    } else if (age > 0 && age < 13) {
         alert('Привет, друг!');
     } else {
         alert('Добро пожаловать!');
@@ -59,3 +59,18 @@ function defineAge() {
 }
 
 defineAge();
+
+//task 5
+function defineCorrectNumber() {
+    alert('Введите два числа.');
+    let firstNumber = prompt('Первое число?');
+    let secondNumber = prompt('Второе число?');
+
+    if (Double.isNaN(firstNumber) || Double.isNaN(secondNumber)) {
+        alert('Одно или оба значения не являются числом');
+    } else {
+        console.log(firstNumber * secondNumber);
+    }
+}
+
+defineCorrectNumber();
