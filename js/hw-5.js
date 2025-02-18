@@ -44,3 +44,18 @@ function defineSquareReturn() {
 
 let numSquare = defineSquareReturn();
 console.log(`Квадрат равен ${numSquare}.`);
+
+//task 4
+function defineAge() {
+    let age = Number(prompt('Введите Ваш возраст:'));
+    
+    if (age < 0) {
+        alert('Вы ввели неправильное значение.');
+    } else if (age >= 0 && age < 13) {
+        alert('Привет, друг!');
+    } else {
+        alert('Добро пожаловать!');
+    }
+}
+
+defineAge();
