@@ -43,4 +43,4 @@ function defineSquareReturn() {
 }
 
 let numSquare = defineSquareReturn();
-console.log(`Квадрат ${num} равен ${numSquare}.`);
+console.log(`Квадрат равен ${numSquare}.`);
