@@ -38,9 +38,9 @@ function defineSquare() {
 defineSquare()
 
 function defineSquareReturn() {
-    let num;
+    let num = Number(prompt('Введите число:'));
     return Math.pow(num, 2);
 }
 
-let numSquare = defineSquareReturn(Number(prompt('Введите число:')));
-console.log(`Квадрат равен ${numSquare}.`);
+let numSquare = defineSquareReturn();
+console.log(`Квадрат ${num} равен ${numSquare}.`);
