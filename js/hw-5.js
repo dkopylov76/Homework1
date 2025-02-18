@@ -96,20 +96,20 @@ let r2 = Number(prompt('Введите радиус второго круга'))
 const circle1 = {
     radius: r1,
     getArea() {
-        return Mаth.PI * (this.radius ** 2);
+        return 3.14 * (this.radius ** 2);
     },
     getPerimeter() {
-        return C = 2 * Mаth.PI * this.radius;
+        return C = 2 * 3.14 * this.radius;
     }
 }
 
 const circle2 = {
     radius: r2,
     getArea() {
-        return Mаth.PI * (this.radius ** 2);
+        return 3.14 * (this.radius ** 2);
     },
     getPerimeter() {
-        return C = 2 * Mаth.PI * this.radius;
+        return C = 2 * 3.14 * this.radius;
     }
 }
 
