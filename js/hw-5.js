@@ -88,3 +88,29 @@ function defineCubeNumber() {
 }
 
 defineCubeNumber();
+
+//task 7
+const circle1 = {
+    radius: r,
+    getArea() {
+        return Mаth.PI * (this.radius ** 2);
+    },
+    getPerimeter() {
+        return C = 2 * Mаth.PI * this.radius;
+    }
+}
+
+const circle2 = {
+    radius: r,
+    getArea() {
+        return Mаth.PI * (this.radius ** 2);
+    },
+    getPerimeter() {
+        return C = 2 * Mаth.PI * this.radius;
+    }
+}
+
+console.log(circle1.getArea(5));
+console.log(circle1.getPerimeter(5));
+console.log(circle2.getArea(10));
+console.log(circle2.getPerimeter(10));
