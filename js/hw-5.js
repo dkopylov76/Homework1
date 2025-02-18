@@ -49,7 +49,7 @@ console.log(`Квадрат равен ${numSquare}.`);
 function defineAge() {
     let age = Number(prompt('Введите Ваш возраст:'));
 
-    if (age < 0 || age == null) {
+    if (age < 0 || age === null) {
         alert('Вы ввели неправильное значение.');
     } else if (age >= 0 && age < 13) {
         alert('Привет, друг!');
