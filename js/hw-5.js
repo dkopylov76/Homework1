@@ -90,8 +90,11 @@ function defineCubeNumber() {
 defineCubeNumber();
 
 //task 7
+let r1 = Number(prompt('Введите радиус первого круга'));
+let r2 = Number(prompt('Введите радиус второго круга'));
+
 const circle1 = {
-    radius: r,
+    radius: r1,
     getArea() {
         return Mаth.PI * (this.radius ** 2);
     },
@@ -101,7 +104,7 @@ const circle1 = {
 }
 
 const circle2 = {
-    radius: r,
+    radius: r2,
     getArea() {
         return Mаth.PI * (this.radius ** 2);
     },
@@ -110,7 +113,7 @@ const circle2 = {
     }
 }
 
-console.log(circle1.getArea(5));
-console.log(circle1.getPerimeter(5));
-console.log(circle2.getArea(10));
-console.log(circle2.getPerimeter(10));
+console.log(circle1.getArea());
+console.log(circle1.getPerimeter());
+console.log(circle2.getArea());
+console.log(circle2.getPerimeter());
