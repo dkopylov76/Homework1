@@ -1,4 +1,4 @@
-function defineMoreLess() {
+function defineMoreLess(firstNumber, secondNumber) {
     alert('Введите два числа.');
     let firstNumber = Number(prompt('Первое число?'));
     let secondNumber = Number(prompt('Второе число?'));
@@ -12,4 +12,4 @@ function defineMoreLess() {
     }
 }
 
-defineMoreLess();
+defineMoreLess(345, 589);
