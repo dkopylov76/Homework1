@@ -74,32 +74,30 @@ function defineCubeNumber() {
 
 console.log(defineCubeNumber(numb));
 
-/*//task 7
+//task 7
 let r1 = Number(prompt('Введите радиус первого круга'));
 let r2 = Number(prompt('Введите радиус второго круга'));
 
+function getArea() {
+    return Math.PI * this.radius ** 2;
+}
+function getPerimeter() {
+    return C = 2 * Math.PI * this.radius;
+}
+
 const circle1 = {
     radius: r1,
-    getArea() {
-        return 3.14159 * (this.radius ** 2);
-    },
-    getPerimeter() {
-        return C = 2 * 3.14159 * this.radius;
-    }
+    methodGetArea: getArea,
+    methodGetPerimeter: getPerimeter
 }
 
 const circle2 = {
     radius: r2,
-    getArea() {
-        return 3.14159 * (this.radius ** 2);
-    },
-    getPerimeter() {
-        return C = 2 * 3.14159 * this.radius;
-    }
+    methodGetArea: getArea,
+    methodGetPerimeter: getPerimeter
 }
 
-console.log(`Площадь первого круга ${circle1.getArea()}.`);
-console.log(`Длина окружности первого круга ${circle1.getPerimeter()}.`);
-console.log(`Площадь второго круга ${circle2.getArea()}.`);
-console.log(`Длина окружности второго круга ${circle2.getPerimeter()}.`);
-*/
+console.log(`Площадь первого круга ${circle1.methodGetArea()}.`);
+console.log(`Длина окружности первого круга ${circle1.methodGetPerimeter()}.`);
+console.log(`Площадь второго круга ${circle2.methodGetArea()}.`);
+console.log(`Длина окружности второго круга ${circle2.methodGetPerimeter()}.`);
