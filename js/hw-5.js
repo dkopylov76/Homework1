@@ -28,7 +28,7 @@ if (isEven(num) == true) {
     console.log(`Число ${num} нечетное.`);
 }
 
-/*//task 3
+//task 3
 function defineSquare() {
     let num = Number(prompt('Введите число:'));
     let numSquare = Math.pow(num, 2);
@@ -46,21 +46,30 @@ let numSquare = defineSquareReturn();
 console.log(`Квадрат равен ${numSquare}.`);
 
 //task 4
-function defineAge() {
-    let age = Number(prompt('Введите Ваш возраст:'));
+let age = prompt('Введите Ваш возраст:');
 
-    if (age < 0 || age === null) {
-        alert('Вы ввели неправильное значение.');
-    } else if (age > 0 && age < 13) {
-        alert('Привет, друг!');
+function defineAge(age) {
+    if (age < 0 || isNaN(age)) {
+        return 0;
+    } else if (age >= 0 && age < 13) {
+        return 1;
     } else {
-        alert('Добро пожаловать!');
+        return 2;
     }
 }
 
-defineAge();
+switch (defineAge(age)) {
+    case 1:
+       console.log('Привет, друг!');
+       break;
+    case 2:
+       console.log('Добро пожаловать!');
+       break;
+    default:
+       console.log('Вы ввели неправильное значение.');
+ }
 
-//task 5
+/*//task 5
 function defineCorrectNumber() {
     alert('Введите два числа.');
     let firstNumber = prompt('Первое число?');
