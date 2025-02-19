@@ -68,7 +68,7 @@ function defineCubeNumber() {
     if (isNaN(numb)) {
         return 'Переданный параметр не является числом';
     } else {
-        return Math.pow(numb, 3);
+        return `${numb} в кубе равняется ${Math.pow(numb, 3)}.`;
     }
 }
 
