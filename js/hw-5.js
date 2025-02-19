@@ -13,7 +13,7 @@ function defineMoreLess(firstNumber, secondNumber) {
     }
 }
 
-console.log(defineMoreLess());
+console.log(defineMoreLess(firstNumber, secondNumber));
 
 //task 2
 function defineEvenOdd() {
