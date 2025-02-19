@@ -36,24 +36,15 @@ let age = prompt('Введите Ваш возраст:');
 
 function defineAge() {
     if (age < 0 || isNaN(age)) {
-        return 0;
-    } else if (age >= 0 && age < 13) {
-        return 1;
+        return 'Вы ввели неправильное значение.';
+    } else if (age >= 0 && age <= 12) {
+        return 'Привет, друг!';
     } else {
-        return 2;
+        return 'Добро пожаловать!';
     }
 }
 
-switch (defineAge(age)) {
-    case 1:
-       console.log('Привет, друг!');
-       break;
-    case 2:
-       console.log('Добро пожаловать!');
-       break;
-    default:
-       console.log('Вы ввели неправильное значение.');
- }
+console.log(defineAge(age));
 
 //task 5
 alert('Введите два числа.');
