@@ -1,9 +1,9 @@
 //task 1
+alert('Введите два числа.');
+let firstNumber = Number(prompt('Первое число?'));
+let secondNumber = Number(prompt('Второе число?'));
+
 function defineMoreLess() {
-    alert('Введите два числа.');
-    let firstNumber = Number(prompt('Первое число?'));
-    let secondNumber = Number(prompt('Второе число?'));
-    
     if (firstNumber < secondNumber) {
         return firstNumber;
     } else if (firstNumber > secondNumber) {
