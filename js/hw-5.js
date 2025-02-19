@@ -53,16 +53,10 @@ let secondNum = Number(prompt('Второе число?'));
 
 function defineCorrectNumber() {
     if (isNaN(firstNum) || isNaN(secondNum)) {
-        return 0;
+        return 'Одно или оба значения не являются числом.';
     } else {
-        return 1
+        return firstNum * secondNum;
     }
-}
-
-if (defineCorrectNumber(firstNum, secondNum) === 0) {
-    console.log('Одно или оба значения не являются числом.');
-} else {
-    console.log(firstNum * secondNum);
 }
 
 //task 6
