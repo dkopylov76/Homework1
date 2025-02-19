@@ -66,14 +66,14 @@ let numb = Number(prompt('Введите число.'));
 
 function defineCubeNumber() {
     if (isNaN(numb)) {
-        return 0
+        return 'Переданный параметр не является числом';
     } else {
         return Math.pow(numb, 3);
     }
 }
 
 console.log(defineCubeNumber(numb));
-console.log('Переданный параметр не является числом');
+
 /*//task 7
 let r1 = Number(prompt('Введите радиус первого круга'));
 let r2 = Number(prompt('Введите радиус второго круга'));
