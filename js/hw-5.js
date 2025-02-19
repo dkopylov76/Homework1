@@ -117,3 +117,4 @@ console.log(`Площадь первого круга ${circle1.getArea()}.`);
 console.log(`Длина окружности первого круга ${circle1.getPerimeter()}.`);
 console.log(`Площадь второго круга ${circle2.getArea()}.`);
 console.log(`Длина окружности второго круга ${circle2.getPerimeter()}.`);
+*/
