@@ -99,6 +99,8 @@ function defineCubeNumber() {
     }
 }
 
+console.log(defineCubeNumber(numb));
+
 /*//task 7
 let r1 = Number(prompt('Введите радиус первого круга'));
 let r2 = Number(prompt('Введите радиус второго круга'));
