@@ -88,21 +88,18 @@ if (defineCorrectNumber(firstNum, secondNum) === 0) {
     console.log(firstNum * secondNum);
 }
 
-/*//task 6
+//task 6
+let numb = Number(prompt('Введите число.'));
+
 function defineCubeNumber() {
-    let num = prompt('Введите число.');
-    
-    if (isNaN(num)) {
-        alert('Переданный параметр не является числом');
+    if (isNaN(numb)) {
+        console.log('Переданный параметр не является числом');
     } else {
-        let numCube = Math.pow(num, 3);
-        console.log(`${num} в кубе равняется ${numCube}.`);
+        return Math.pow(numb, 3);
     }
 }
 
-defineCubeNumber();
-
-//task 7
+/*//task 7
 let r1 = Number(prompt('Введите радиус первого круга'));
 let r2 = Number(prompt('Введите радиус второго круга'));
 
