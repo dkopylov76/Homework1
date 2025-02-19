@@ -1,9 +1,9 @@
 //task 1
-alert('Введите два числа.');
-let firstNumber = Number(prompt('Первое число?'));
-let secondNumber = Number(prompt('Второе число?'));
-
 function defineMoreLess(firstNumber, secondNumber) {
+    alert('Введите два числа.');
+    let firstNumber = Number(prompt('Первое число?'));
+    let secondNumber = Number(prompt('Второе число?'));
+    
     if (firstNumber < secondNumber) {
         return firstNumber;
     } else if (firstNumber > secondNumber) {
@@ -16,9 +16,8 @@ function defineMoreLess(firstNumber, secondNumber) {
 console.log(defineMoreLess(firstNumber, secondNumber));
 
 //task 2
-let num = Number(prompt('Введите число:'));
-
 function isEven(num) {
+    let num = Number(prompt('Введите число:'));
     return num % 2 === 0;
 }
 
@@ -46,9 +45,9 @@ let numSquare = defineSquareReturn();
 console.log(`Квадрат равен ${numSquare}.`);
 
 //task 4
-let age = prompt('Введите Ваш возраст:');
-
 function defineAge(age) {
+    let age = prompt('Введите Ваш возраст:');
+
     if (age < 0 || isNaN(age)) {
         return 0;
     } else if (age >= 0 && age < 13) {
@@ -69,22 +68,20 @@ switch (defineAge(age)) {
        console.log('Вы ввели неправильное значение.');
  }
 
-/*//task 5
+//task 5
 function defineCorrectNumber() {
     alert('Введите два числа.');
-    let firstNumber = prompt('Первое число?');
-    let secondNumber = prompt('Второе число?');
-
+    let firstNumber = Number(prompt('Первое число?'));
+    let secondNumber = Number(prompt('Второе число?'));
+    
     if (isNaN(firstNumber) || isNaN(secondNumber)) {
-        alert('Одно или оба значения не являются числом.');
+        console.log('Одно или оба значения не являются числом.');
     } else {
         console.log(firstNumber * secondNumber);
     }
 }
 
-defineCorrectNumber();
-
-//task 6
+/*//task 6
 function defineCubeNumber() {
     let num = prompt('Введите число.');
     
