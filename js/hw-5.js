@@ -59,6 +59,8 @@ function defineCorrectNumber() {
     }
 }
 
+console.log(defineCorrectNumber(firstNum, secondNum));
+
 //task 6
 let numb = Number(prompt('Введите число.'));
 
