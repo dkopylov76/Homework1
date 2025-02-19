@@ -1,19 +1,19 @@
 //task 1
-function defineMoreLess() {
-    alert('Введите два числа.');
-    let firstNumber = Number(prompt('Первое число?'));
-    let secondNumber = Number(prompt('Второе число?'));
+alert('Введите два числа.');
+let firstNumber = Number(prompt('Первое число?'));
+let secondNumber = Number(prompt('Второе число?'));
 
+function defineMoreLess(firstNumber, secondNumber) {
     if (firstNumber < secondNumber) {
-        alert(`Меньшее число ${firstNumber}.`);
+        return firstNumber;
     } else if (firstNumber > secondNumber) {
-        alert(`Меньшее число ${secondNumber}.`);
+        return secondNumber;
     } else {
-        alert(`Числа равны - ${firstNumber}.`);
+        return firstNumber;
     }
 }
 
-defineMoreLess();
+console.log(defineMoreLess());
 
 //task 2
 function defineEvenOdd() {
