@@ -3,16 +3,6 @@ alert('Введите два числа.');
 let firstNumber = Number(prompt('Первое число?'));
 let secondNumber = Number(prompt('Второе число?'));
 
-/*function defineMoreLess() {
-    if (firstNumber < secondNumber) {
-        return firstNumber;
-    } else if (firstNumber > secondNumber) {
-        return secondNumber;
-    } else {
-        return firstNumber;
-    }
-}*/
-
 const defineMoreLess = (firstNumber, secondNumber) => (firstNumber < secondNumber) ? firstNumber : secondNumber;
 
 console.log(defineMoreLess(firstNumber, secondNumber));
@@ -20,15 +10,9 @@ console.log(defineMoreLess(firstNumber, secondNumber));
 //task 2
 let num = Number(prompt('Введите число:'));
 
-function isEven() {
-    return num % 2 === 0;
-}
+const isEven = (num) => (num % 2 === 0) ? `Число ${num} четное.` : `Число ${num} нечетное.`;
 
-if (isEven(num) == true) {
-    console.log(`Число ${num} четное.`);
-} else {
-    console.log(`Число ${num} нечетное.`);
-}
+console.log(isEven(num));
 
 //task 3
 function defineSquare() {
