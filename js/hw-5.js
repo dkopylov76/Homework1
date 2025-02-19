@@ -22,7 +22,7 @@ function isEven(num) {
     return num % 2 === 0;
 }
 
-if (isEven(num) = true) {
+if (isEven(num) == true) {
     console.log(`Число ${num} четное.`);
 } else {
     console.log(`Число ${num} нечетное.`);
