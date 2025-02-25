@@ -1,3 +1,4 @@
+//Игра "Угадай число"
 function gameHiddenNumber() {
     const hiddenNumber = Math.floor(Math.random() * 100) + 1;
     alert('Попробуйте угадать число от 1 до 100.');
@@ -14,10 +15,12 @@ function gameHiddenNumber() {
     }
 }
 
+//Игра "Простая арифметика"
 function gameSimpleMath() {
     const firstNumber = Math.floor(Math.random() * 100) + 1;
     const secondNumber = Math.floor(Math.random() * 100) + 1;
-    result = firstNumber + secondNumber;
+    const mathAction = ['+', '-', '*', '/'];
+    result = join(firstNumber, mathAction, secondNumber);
     alert('Попробуй решить простые арифметические задачи.');
     while(true) {
         let userNumber = Number(prompt(`${firstNumber} + ${secondNumber}. Ваш ответ?`));
