@@ -23,7 +23,6 @@ function gameSimpleMath() {
         let userNumber = Number(prompt(`${firstNumber} + ${secondNumber}. Ваш ответ?`));
         if (userNumber === result) {
             console.log('Ответ верный.');
-            break;
         } else {
             console.log('Ошибка.')
         }
