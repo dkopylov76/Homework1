@@ -13,3 +13,19 @@ function gameHiddenNumber() {
         }
     }
 }
+
+function gameSimpleMath() {
+    const firstNumber = Math.floor(Math.random() * 100) + 1;
+    const secondNumber = Math.floor(Math.random() * 100) + 1;
+    return result = firstNumber + secondNumber;
+}
+alert('Попробуй решить простые арифметические задачи.');
+while(true) {
+    let userNumber = Number(prompt(`${firstNumber} + ${secondNumber}. Ваш ответ?`));
+    if (userNumber === gameSimpleMath()) {
+        console.log('Ответ верный.');
+        break;
+    } else {
+        console.log('Ошибка.')
+    }
+}
