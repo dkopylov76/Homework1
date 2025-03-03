@@ -58,7 +58,7 @@ function gameSimpleMath() {
             }
         case '/':
             userAnswer = +prompt(`Найдите частное ${firstNumber} и ${secondNumber}. Ответ округлите до целых. Ваш ответ?`);
-            result = Math.floor(firstNumber / secondNumber);
+            result = Math.round(firstNumber / secondNumber);
             if (userAnswer === result) {
                 alert('Верно!');
                 break;
