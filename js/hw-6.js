@@ -94,7 +94,7 @@ console.log(getLength(['control', 'push', 'commit']));
 
 //task 13
 function getNegative(arr13) {
-    return arr13.map(item => item < 0);
+    return arr13.filter(item => item < 0);
 }
 
 console.log(getNegative([-2, 4, 6, -8, 10]));
