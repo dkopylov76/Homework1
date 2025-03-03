@@ -23,7 +23,9 @@ function gameSimpleMath() {
     const mathActions = ['+', '-', '*', '/'];
     const mathAction = mathActions[Math.floor(Math.random() * mathActions.length)];
 
-    return firstNumber, secondNumber, mathAction;
+    console.log(firstNumber);
+    console.log(secondNumber);
+    console.log(mathAction);
     
     /*alert('Попробуй решить простые арифметические задачи.');
     while(true) {
@@ -35,7 +37,3 @@ function gameSimpleMath() {
         }
     }*/
 }
-
-console.log(gameSimpleMath(firstNumber));
-console.log(gameSimpleMath(secondNumber));
-console.log(gameSimpleMath(mathAction));
