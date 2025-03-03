@@ -41,6 +41,6 @@ for (let i = 0; i < 3; i++) {
 console.log(arr);
 
 //task 6
-const num = [9, 8, 7, 'a', 6, 5];
-filterArray = num.filter(num => num == NaN);
-console.log(filterArray.sort());
+const nums1 = [9, 8, 7, 'a', 6, 5];
+const filterNums1 = nums1.filter(num1 => num1 == 'a');
+console.log(filterNums1.sort());
