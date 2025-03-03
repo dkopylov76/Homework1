@@ -36,6 +36,6 @@ function gameSimpleMath() {
     }*/
 }
 
-console.log(firstNumber);
-console.log(secondNumber);
-console.log(mathAction);
+console.log(gameSimpleMath(firstNumber));
+console.log(gameSimpleMath(secondNumber));
+console.log(gameSimpleMath(mathAction));
