@@ -84,3 +84,10 @@ function square(arr5) {
 }
 
 console.log(square([2, 4, 6, 8, 10]));
+
+//task 12
+function getLength(arr3) {
+    return arr3.map(item => item.length);
+}
+
+console.log(getLength(['control', 'push', 'commit']));
