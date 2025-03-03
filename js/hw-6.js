@@ -42,5 +42,5 @@ console.log(arr);
 
 //task 6
 const nums1 = [9, 8, 7, 'a', 6, 5];
-const filterNums1 = nums1.filter(num1 => num1 == 'a');
+const filterNums1 = nums1.filter(num1 => num1 !== 'a');
 console.log(filterNums1.sort());
