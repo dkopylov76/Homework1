@@ -57,5 +57,4 @@ if (values.includes(userValue)) {
 
 //task 8
 let str = 'abcdef';
-let strArray = str.split('');
-console.log(strArray.reverse.join());
+console.log(str.split('').reverse().join(''));
