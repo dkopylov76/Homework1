@@ -61,6 +61,7 @@ console.log(str.split('').reverse().join(''));
 
 //task 9
 const arr1 = [[1, 2, 3],[4, 5, 6]];
+const arr2 = [];
 
 for (i = 0; i > arr1.length; i++) {
     arr2.push(...arr1[i]);
