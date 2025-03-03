@@ -20,7 +20,7 @@ function gameHiddenNumber() {
 function gameSimpleMath() {
     const firstNumber = Math.floor(Math.random() * 100) + 1;
     const secondNumber = Math.floor(Math.random() * 100) + 1;
-    const mathActions = ['+', '-', '*'];
+    const mathActions = ['+', '-', '*', '/'];
     const mathAction = mathActions[Math.floor(Math.random() * mathActions.length)];
     let result;
 
@@ -49,7 +49,16 @@ function gameSimpleMath() {
             }
         case '*':
             userAnswer = +prompt(`Найдите произведение ${firstNumber} и ${secondNumber}. Ваш ответ?`);
-            result = Math.abs(firstNumber * secondNumber);
+            result = firstNumber * secondNumber;
+            if (userAnswer === result) {
+                alert('Верно!');
+                break;
+            } else {
+                alert('Ошибка!')
+            }
+        case '/':
+            userAnswer = +prompt(`Найдите частное ${firstNumber} и ${secondNumber}. Ответ округлите до целых. Ваш ответ?`);
+            result = Math.floor(firstNumber / secondNumber);
             if (userAnswer === result) {
                 alert('Верно!');
                 break;
