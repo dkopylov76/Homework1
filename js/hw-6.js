@@ -42,6 +42,5 @@ console.log(arr);
 
 //task 6
 const array = [9, 8, 7, 'a', 6, 5];
-array.sort();
-array.pop();
-console.log(array);
+array.filter('a');
+console.log(array.sort());
