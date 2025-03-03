@@ -42,4 +42,6 @@ console.log(arr);
 
 //task 6
 const array = [9, 8, 7, 'a', 6, 5];
-console.log(array.sort.pop());
+array.sort();
+array.pop();
+console.log(array);
