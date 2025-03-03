@@ -70,7 +70,7 @@ for (let i = 0; i < arr1.length; i++) {
 console.log(arr2);
 
 //task 10
-const arr10 = ['1','2','3','4','5','6','7','8','9','10'];
+const arr10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 for (let i = 0; i <= arr10.length; i++) {
     console.log(arr10[i] + arr10[i+1]);
