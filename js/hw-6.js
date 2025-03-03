@@ -11,3 +11,8 @@ for (let i = 0; i < numbs.length; i++) {
     if (numbs[i] === 4)
     console.log(i);
 };
+
+//task 3
+const nums = [1, 3, 5, 10, 20];
+let joinNums = nums.join(' ');
+console.log(joinNums);
