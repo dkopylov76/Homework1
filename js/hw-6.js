@@ -39,3 +39,7 @@ for (let i = 0; i < 3; i++) {
 }
 
 console.log(arr);
+
+//task 6
+const array = [9, 8, 7, 'a', 6, 5];
+console.log(array.sort);
