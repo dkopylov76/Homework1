@@ -7,7 +7,7 @@ for (let i = 0; i < numbers.length; i++) {
 
 //task 2
 const numbs = [1, 5, 4, 10, 0, 3];
-numbs.forEach((i, index) => {
+for (let i = 0; i < numbs.length; i++) {
     if (numbs[i] === 4)
-    console.log(`${index}: ${i}`);
-});
+    console.log(i);
+};
