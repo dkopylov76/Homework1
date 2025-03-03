@@ -20,7 +20,7 @@ function gameHiddenNumber() {
 function gameSimpleMath() {
     const firstNumber = Math.floor(Math.random() * 100) + 1;
     const secondNumber = Math.floor(Math.random() * 100) + 1;
-    const mathActions = ['+', '-'];
+    const mathActions = ['+', '-', '*'];
     const mathAction = mathActions[Math.floor(Math.random() * mathActions.length)];
     let result;
 
@@ -30,7 +30,7 @@ function gameSimpleMath() {
 
     switch (mathAction) {
         case '+':
-            userAnswer = +prompt(`Сложите ${firstNumber} и ${secondNumber}. Ваш ответ?`);
+            userAnswer = +prompt(`Найдите сумму ${firstNumber} и ${secondNumber}. Ваш ответ?`);
             result = firstNumber + secondNumber;
             if (userAnswer === result) {
                 alert('Верно!');
@@ -40,6 +40,15 @@ function gameSimpleMath() {
             }
         case '-':
             userAnswer = +prompt(`Найдите разность ${firstNumber} и ${secondNumber}. Ваш ответ?`);
+            result = Math.abs(firstNumber - secondNumber);
+            if (userAnswer === result) {
+                alert('Верно!');
+                break;
+            } else {
+                alert('Ошибка!')
+            }
+        case '*':
+            userAnswer = +prompt(`Найдите произведение ${firstNumber} и ${secondNumber}. Ваш ответ?`);
             result = Math.abs(firstNumber - secondNumber);
             if (userAnswer === result) {
                 alert('Верно!');
