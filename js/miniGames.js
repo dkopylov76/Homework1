@@ -35,7 +35,7 @@ function gameSimpleMath() {
                 break;
             }
         case '-':
-            userAnswer = +prompt(`Найдите разность ${firstNumber} и ${secondNumber}. Ваш ответ?`);
+            userAnswer = +prompt(`Найдите разность ${firstNumber} и ${secondNumber}. Отнимите от большего числа меньшее. Ваш ответ?`);
             result = Math.abs(firstNumber - secondNumber);
             if (userAnswer === result) {
                 alert('Верно!');
@@ -55,7 +55,7 @@ function gameSimpleMath() {
                 break;
             }
         case '/':
-            userAnswer = +prompt(`Найдите частное ${firstNumber} и ${secondNumber}. Ответ округлите до целых. Ваш ответ?`);
+            userAnswer = +prompt(`Найдите частное ${firstNumber} и ${secondNumber}. Разделите большее число на меньшее. Ответ округлите до целых. Ваш ответ?`);
             if (firstNumber > secondNumber) {
                 result = Math.round(firstNumber / secondNumber);
             } else {
