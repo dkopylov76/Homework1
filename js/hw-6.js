@@ -42,5 +42,5 @@ console.log(arr);
 
 //task 6
 const array = [9, 8, 7, 'a', 6, 5];
-array.filter('a');
-console.log(array.sort());
+filterArray = array.filter(i => i = NaN);
+console.log(filterArray.sort());
