@@ -49,7 +49,7 @@ function gameSimpleMath() {
             }
         case '*':
             userAnswer = +prompt(`Найдите произведение ${firstNumber} и ${secondNumber}. Ваш ответ?`);
-            result = Math.abs(firstNumber - secondNumber);
+            result = Math.abs(firstNumber * secondNumber);
             if (userAnswer === result) {
                 alert('Верно!');
                 break;
