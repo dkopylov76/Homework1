@@ -77,3 +77,10 @@ for (let i = 0; i <= arr10.length; i++) {
         console.log(arr10[i] + arr10[i+1]);
     }
 }
+
+//task 11
+function square(arr5) {
+    return arr5.map(item => item ** 2);
+}
+
+console.log(square([2, 4, 6, 8, 10]));
