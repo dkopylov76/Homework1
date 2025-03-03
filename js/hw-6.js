@@ -8,6 +8,7 @@ for (let i = 0; i < numbers.length; i++) {
 
 //task 2
 const numbs = [1, 5, 4, 10, 0, 3];
+
 for (let i = 0; i < numbs.length; i++) {
     if (numbs[i] == 4)
     console.log(i);
@@ -29,3 +30,12 @@ for (let i = 0; i < 3; i++) {
 }
 
 console.log(array1);
+
+//task 5
+const arr = [1, 1, 1];
+
+for (let i = 0; i < 3; i++) {
+    arr.push(2);
+}
+
+console.log(arr);
