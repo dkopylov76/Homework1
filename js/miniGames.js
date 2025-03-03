@@ -31,3 +31,12 @@ function gameSimpleMath() {
         }
     }
 }
+
+const firstNumber = [];
+const N = 100;
+ 
+for (let i = 0; i < N; i++) {
+    firstNumber.push(i);
+}
+
+console.log(firstNumber);

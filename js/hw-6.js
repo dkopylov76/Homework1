@@ -1,23 +1,6 @@
-/*const firstNumber = Math.floor(Math.random() * 100) + 1;
-const secondNumber = Math.floor(Math.random() * 100) + 1;
-const mathAction = ['+', '-', '*', '/'];
-result = join(firstNumber, mathAction, secondNumber);
-alert('Попробуй решить простые арифметические задачи.');
-while(true) {
-    let userNumber = Number(prompt(`${firstNumber} + ${secondNumber}. Ваш ответ?`));
-    if (userNumber === result) {
-        console.log('Ответ верный.');
-    } else {
-        console.log('Ошибка.')
-    }
+//task 1
+const numbers = [1, 5, 4, 10, 0, 3];
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] == 5) break;
+    console.log(numbers[i]);
 }
-*/
-
-const firstNumber = [];
-const N = 100;
- 
-for (let i = 0; i < N; i++) {
-    firstNumber.push(i);
-}
-
-console.log(firstNumber);
