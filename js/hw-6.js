@@ -105,5 +105,17 @@ const arr14 = [];
 for (let i = 0; i < 10; i++) {
     arr14.push(Math.floor(Math.random()*10 + 1));
 }
+
 console.log(arr14);
 console.log(arr14.filter(item => item % 2 === 0));
+
+//task15
+const arr15 = [];
+
+for (let i = 0; i < 6; i++) {
+    arr15.push(Math.floor(Math.random()*10 + 1));
+}
+
+const sum = arr15.reduce((a, b) => a + b);
+console.log(arr15);
+console.log(sum / arr15.length);
