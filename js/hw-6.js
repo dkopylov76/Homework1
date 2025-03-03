@@ -103,7 +103,7 @@ console.log(getNegative([-2, 4, 6, -8, 10]));
 const arr14 = [];
 
 for (let i = 0; i < 10; i++) {
-    arr14.push(Math.random()*10);
+    arr14.push(Math.floor(Math.random()*10));
 }
 
 console.log(arr14);
