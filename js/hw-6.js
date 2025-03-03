@@ -44,3 +44,13 @@ console.log(arr);
 const nums1 = [9, 8, 7, 'a', 6, 5];
 const filterNums1 = nums1.filter(num1 => num1 !== 'a');
 console.log(filterNums1.sort());
+
+//task 7
+const values = [9, 8, 7, 6, 5];
+
+const userValue = Number(prompt('Попробуй угадать число от 1 до 10.'));
+if (values.includes(userValue)) {
+    alert('Угадал.')
+} else {
+    alert('Не угадал.')
+}
