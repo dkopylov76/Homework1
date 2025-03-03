@@ -48,9 +48,14 @@ console.log(filterNums1.sort());
 //task 7
 const values = [9, 8, 7, 6, 5];
 
-const userValue = Number(prompt('Попробуй угадать число от 1 до 10.'));
+const userValue = +prompt('Попробуй угадать число от 1 до 10.');
 if (values.includes(userValue)) {
     alert('Угадал.')
 } else {
     alert('Не угадал.')
 }
+
+//task 8
+let str = 'abcdef';
+let strArray = str.split('');
+console.log(strArray.reverse.join());
