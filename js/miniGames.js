@@ -79,5 +79,35 @@ function gameTextFlipOver() {
 
 //Игра "Викторина"
 function gameQuiz() {
-    
+    const quiz = [
+        {
+            question: `Какого цвета небо?`,
+            options: [`1. Красный`, `2. Голубой`, `3. Зеленый`],
+            correctAnswer: 2
+        },
+        {
+            question: `Сколько дней в неделе?`,
+            options: [`1. Шесть`, `2. Семь`, `3. Восемь`],
+            correctAnswer: 2
+        },
+        {
+            question: `Сколько у человека пальцев на одной руке?`,
+            options: [`1. Четыре`, `2. Пять`, `3. Шесть`],
+            correctAnswer: 2
+        }
+    ];
+
+    let answer = 0;
+
+    for (let answer = 0; answer < quiz.length; answer++) {
+        let qiuzQuestion = +prompt(`${quiz[i].question}\n Выберите правильный ответ.\n${quiz[i].options}`);
+        if (qiuzQuestion == quiz[1].correctAnswer) {
+            answer++;
+            alert('Вы ответили верно!');
+        } else {
+            alert('Вы ошиблись!');
+        }
+    }
+
+    alert(`Вы ответили верно на ${answer} вопросов.`)
 }
