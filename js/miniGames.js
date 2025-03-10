@@ -76,3 +76,8 @@ function gameTextFlipOver() {
     let str = prompt('Введите текст, а я переверну его!');
     alert(str.split('').reverse().join(''));
 }
+
+//Игра "Викторина"
+function gameQuiz() {
+    
+}
