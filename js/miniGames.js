@@ -70,3 +70,8 @@ function gameSimpleMath() {
             }
         }
     }
+
+//Игра "Переверни текст"
+function gameTextFlipOver() {
+    
+}
