@@ -83,7 +83,7 @@ function gameQuiz() {
         {
             question: `Зимой и летом - одним цветом?`,
             options: [`1. Ель`, `2. Береза`, `3. Дуб`],
-            correctAnswer: 2
+            correctAnswer: 1
         },
         {
             question: `Висит груша - нельзя скушать?`,
@@ -93,7 +93,7 @@ function gameQuiz() {
         {
             question: `Сто одёжек и все без застежек?`,
             options: [`1. Лук`, `2. Манекен`, `3. Капуста`],
-            correctAnswer: 2
+            correctAnswer: 3
         }
     ];
 
