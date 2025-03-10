@@ -99,9 +99,9 @@ function gameQuiz() {
 
     let answer = 0;
 
-    for (let answer = 0; answer < quiz.length; answer++) {
+    for (let i = 0; i < quiz.length; i++) {
         let qiuzQuestion = +prompt(`${quiz[i].question}\n Выберите правильный ответ.\n${quiz[i].options}`);
-        if (qiuzQuestion == quiz[1].correctAnswer) {
+        if (qiuzQuestion == quiz[i].correctAnswer) {
             answer++;
             alert('Вы ответили верно!');
         } else {
