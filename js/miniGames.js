@@ -81,18 +81,18 @@ function gameTextFlipOver() {
 function gameQuiz() {
     const quiz = [
         {
-            question: `Какого цвета небо?`,
-            options: [`1. Красный`, `2. Голубой`, `3. Зеленый`],
+            question: `Зимой и летом - одним цветом?`,
+            options: [`1. Ель`, `2. Береза`, `3. Дуб`],
             correctAnswer: 2
         },
         {
-            question: `Сколько дней в неделе?`,
-            options: [`1. Шесть`, `2. Семь`, `3. Восемь`],
+            question: `Висит груша - нельзя скушать?`,
+            options: [`1. Яблоко`, `2. Лампочка`, `3. Авокадо`],
             correctAnswer: 2
         },
         {
-            question: `Сколько у человека пальцев на одной руке?`,
-            options: [`1. Четыре`, `2. Пять`, `3. Шесть`],
+            question: `Сто одёжек и все без застежек?`,
+            options: [`1. Лук`, `2. Манекен`, `3. Капуста`],
             correctAnswer: 2
         }
     ];
@@ -100,7 +100,7 @@ function gameQuiz() {
     let answer = 0;
 
     for (let i = 0; i < quiz.length; i++) {
-        let qiuzQuestion = +prompt(`${quiz[i].question}\n Выберите правильный ответ.\n${quiz[i].options}`);
+        let qiuzQuestion = +prompt(`${quiz[i].question}\nВыберите правильный ответ.\n${quiz[i].options}`);
         if (qiuzQuestion == quiz[i].correctAnswer) {
             answer++;
             alert('Вы ответили верно!');
@@ -109,5 +109,9 @@ function gameQuiz() {
         }
     }
 
-    alert(`Вы ответили верно на ${answer} вопросов.`)
+    if (answer === 0 || answer === 1) {
+        alert(`Вы ответили верно ${answer} раз.`)
+    } else {
+        alert(`Вы ответили верно ${answer} раза.`)
+    }
 }
