@@ -74,5 +74,5 @@ function gameSimpleMath() {
 //Игра "Переверни текст"
 function gameTextFlipOver() {
     let str = prompt('Введите текст, а я переверну его!');
-    console.log(str.split('').reverse().join(''));
+    alert(str.split('').reverse().join(''));
 }
