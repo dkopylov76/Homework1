@@ -41,7 +41,13 @@ const numRandom = Math.floor(Math.random() * 100) + 1;
 console.log(numRandom);
 const length = Math.floor(numRandom / 2);
 console.log(length);
+const arrRandom = [];
 
+for (let i = 0; i < length; i++) {
+    arrRandom.push(Math.floor(Math.random() * 100) + 1);
+}
+
+console.log(arrRandom);
 //const arrNum = 10;
 //const arrNew = [];
 
