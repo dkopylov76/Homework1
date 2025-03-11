@@ -52,4 +52,8 @@ console.log(arrRandom);
 const firstNumber = 34;
 const secondNumber = 68;
 
-function 
+function twoNumbers() {
+    return numRandom = Math.floor(Math.random() * (secondNumber - firstNumber + 1));
+}
+
+console.log(twoNumbers());
