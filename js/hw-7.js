@@ -53,7 +53,7 @@ const firstNumber = 34;
 const secondNumber = 68;
 
 function twoNumbers() {
-    return numRandom = Math.floor(Math.random() * (secondNumber - firstNumber + 1));
+    return Math.floor(Math.random() * (secondNumber - firstNumber + 1));
 }
 
 console.log(twoNumbers());
