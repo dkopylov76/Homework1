@@ -35,3 +35,20 @@ function randonNum() {
 }
 
 console.log(randonNum());
+
+//task 6
+const arrNum = 10;
+const arrNew = [];
+
+function arrRandom() {
+    for (let i = 0; i < arrNum / 2; i++) {
+        while (i < arrNum / 2) {
+            const num = Math.floor(Math.random() * 100) + 1;
+            if (num < arrNum) {
+                arrNew.push(num);
+            }
+        }
+    }
+}
+
+console.log(arrNew);
