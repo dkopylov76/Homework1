@@ -1,2 +1,3 @@
 //task 1
-console.log(toUpperCase('js'));
+let str = 'js';
+console.log(str.toUpperCase('js'));
