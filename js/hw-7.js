@@ -61,3 +61,9 @@ console.log(twoNumbers());
 //task 8
 let currentDate = new Date();
 console.log(currentDate);
+
+//task 9
+let currDate = new Date();
+currDate.setDate(currDate.getDate() + 73);
+console.log(currDate);
+
