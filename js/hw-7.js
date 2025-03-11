@@ -49,8 +49,8 @@ console.log(length);
 console.log(arrRandom);
 
 //task 7
-const firstNumber = 34;
-const secondNumber = 68;
+const firstNumber = 5;
+const secondNumber = 93;
 
 function twoNumbers() {
     return Math.floor(firstNumber + Math.random() * (secondNumber - firstNumber + 1));
