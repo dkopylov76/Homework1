@@ -69,6 +69,9 @@ console.log(currDate);
 
 //task 10
 const curDate = new Date();
-const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
-const formattedDate = curDate.toLocaleDateString('ru-RU', options);
-console.log(formattedDate);
+const options1 = { year: 'numeric', month: 'long', day: 'numeric' };
+const options2 = { weekday: 'long' };
+const formattedDate1 = curDate.toLocaleDateString('ru-RU', options1);
+const formattedDate2 = curDate.toLocaleDateString('ru-RU', options2);
+console.log(`Дата: ${formattedDate1} - это ${formattedDate2}.`);
+console.log(`Время: ${curDate.toLocaleTimeString('ru-RU')}`);
