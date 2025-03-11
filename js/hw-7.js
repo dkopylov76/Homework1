@@ -57,3 +57,7 @@ function twoNumbers() {
 }
 
 console.log(twoNumbers());
+
+//task 8
+let currentDate = new Date();
+console.log(currentDate);
