@@ -16,3 +16,8 @@ words.forEach((word) => {
 console.log(wordsNew);
 
 //task 3
+const num = 32.58884;
+
+console.log(Math.floor(num));
+console.log(Math.ceil(num));
+console.log(Math.round(num));
