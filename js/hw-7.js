@@ -38,28 +38,18 @@ console.log(randomNum());
 
 //task 6
 const numRandom = Math.floor(Math.random() * 100) + 1;
-console.log(numRandom);
 const length = Math.floor(numRandom / 2);
-console.log(length);
 const arrRandom = [];
 
 for (let i = 0; i < length; i++) {
     arrRandom.push(Math.floor(Math.random() * (numRandom + 1)));
 }
-
+console.log(numRandom);
+console.log(length);
 console.log(arrRandom);
-//const arrNum = 10;
-//const arrNew = [];
 
-/*function arrRandom() {
-    for (let i = 0; i < arrNum / 2; i++) {
-        //while (i < arrNum / 2) {
-            return num = Math.floor(Math.random() * 100) + 1;
-            
-            //if (num < arrNum) {
-            //    arrNew.push(num);
-            }
-        }
+//task 7
+const firstNumber = 34;
+const secondNumber = 68;
 
-console.log(num);
-*/
+function 
