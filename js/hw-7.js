@@ -28,3 +28,10 @@ const minNum = Math.min(...arr4);
 const maxNum = Math.max(...arr4);
 console.log(minNum);
 console.log(maxNum);
+
+//task 5
+function randonNum() {
+    return Math.floor(Math.random() * 10) + 1;
+}
+
+console.log(randonNum());
