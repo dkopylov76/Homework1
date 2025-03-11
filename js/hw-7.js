@@ -8,9 +8,11 @@ const search = 'вн';
 const wordsNew = [];
 
 words.forEach((word) => {
-    if (word.toLowerCase().includes(search.toLowerCase())) {
+    if (word.toLowerCase().startsWith(search.toLowerCase())) {
         wordsNew.push(word);
     }
 });
 
 console.log(wordsNew);
+
+//task 3
