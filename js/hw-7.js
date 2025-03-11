@@ -44,7 +44,7 @@ console.log(length);
 const arrRandom = [];
 
 for (let i = 0; i < length; i++) {
-    arrRandom.push(Math.floor(Math.random() * 100) + 1);
+    arrRandom.push(Math.floor(Math.random() * (numRandom + 1)));
 }
 
 console.log(arrRandom);
