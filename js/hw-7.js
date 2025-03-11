@@ -30,17 +30,20 @@ console.log(minNum);
 console.log(maxNum);
 
 //task 5
-function randonNum() {
+function randomNum() {
     return Math.floor(Math.random() * 10) + 1;
 }
 
-console.log(randonNum());
+console.log(randomNum());
 
 //task 6
-const arrNum = 10;
-const arrNew = [];
+const numRandom = Math.floor(Math.random() * 100) + 1;
+console.log(numRandom);
 
-function arrRandom() {
+//const arrNum = 10;
+//const arrNew = [];
+
+/*function arrRandom() {
     for (let i = 0; i < arrNum / 2; i++) {
         //while (i < arrNum / 2) {
             return num = Math.floor(Math.random() * 100) + 1;
@@ -51,3 +54,4 @@ function arrRandom() {
         }
 
 console.log(num);
+*/
