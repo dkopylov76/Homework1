@@ -39,6 +39,8 @@ console.log(randomNum());
 //task 6
 const numRandom = Math.floor(Math.random() * 100) + 1;
 console.log(numRandom);
+const length = Math.floor(numRandom / 2);
+console.log(length);
 
 //const arrNum = 10;
 //const arrNew = [];
