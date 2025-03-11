@@ -25,7 +25,7 @@ console.log(Math.round(num));
 //task 4
 const arr4 = [52, 53, 49, 77, 21, 32];
 
-for (i = 0; i < arr4.length; i++) {
+for (let i = 0; i < arr4.length; i++) {
     console.log(Math.min(arr4));
     console.log(Math.max(arr4));
 }
