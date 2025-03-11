@@ -43,10 +43,11 @@ const arrNew = [];
 function arrRandom() {
     for (let i = 0; i < arrNum / 2; i++) {
         //while (i < arrNum / 2) {
-            const num = Math.floor(Math.random() * 100) + 1;
-            console.log(num);
+            return num = Math.floor(Math.random() * 100) + 1;
+            
             //if (num < arrNum) {
             //    arrNew.push(num);
             }
         }
 
+console.log(num);
