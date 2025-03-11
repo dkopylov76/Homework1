@@ -46,10 +46,9 @@ function arrRandom() {
             const num = Math.floor(Math.random() * 100) + 1;
             if (num < arrNum) {
                 arrNew.push(num);
-                i++;
             }
         }
     }
 }
 
-console.log(arrNew);
+console.log(arrRandom());
