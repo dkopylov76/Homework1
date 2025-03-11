@@ -69,6 +69,6 @@ console.log(currDate);
 
 //task 10
 const curDate = new Date();
-const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+const options = { year: 'numeric', month: 'long', day: 'numeric', weekday: 'long' };
 const formattedDate = curDate.toLocaleDateString('ru-RU', options);
 console.log(formattedDate);
