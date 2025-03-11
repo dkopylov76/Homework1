@@ -5,8 +5,12 @@ console.log(str.toUpperCase('js'));
 //task 2
 const words = ['Вниз','вверх','внутрь','Наружу','Внезапно'];
 const search = 'вн';
+const wordsNew = [];
+
 words.forEach((word) => {
     if (word.toLowerCase().includes(search.toLowerCase())) {
-        console.log(word);
+        wordsNew.push(word);
     }
 });
+
+console.log(wordsNew);
