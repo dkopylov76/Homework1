@@ -70,3 +70,48 @@ function gameSimpleMath() {
             }
         }
     }
+
+//Игра "Переверни текст"
+function gameTextFlipOver() {
+    let str = prompt('Введите текст, а я переверну его!');
+    alert(str.split('').reverse().join(''));
+}
+
+//Игра "Викторина"
+function gameQuiz() {
+    const quiz = [
+        {
+            question: `Зимой и летом - одним цветом?`,
+            options: [`1. Ель`, `2. Береза`, `3. Дуб`],
+            correctAnswer: 1
+        },
+        {
+            question: `Висит груша - нельзя скушать?`,
+            options: [`1. Яблоко`, `2. Лампочка`, `3. Авокадо`],
+            correctAnswer: 2
+        },
+        {
+            question: `Сто одёжек и все без застежек?`,
+            options: [`1. Лук`, `2. Манекен`, `3. Капуста`],
+            correctAnswer: 3
+        }
+    ];
+
+    let answer = 0;
+
+    for (let i = 0; i < quiz.length; i++) {
+        let qiuzQuestion = +prompt(`${quiz[i].question}\nВыберите правильный ответ.\n${quiz[i].options}`);
+        if (qiuzQuestion == quiz[i].correctAnswer) {
+            answer++;
+            alert('Вы ответили верно!');
+        } else {
+            alert('Вы ошиблись!');
+        }
+    }
+
+    if (answer === 0 || answer === 1) {
+        alert(`Вы ответили верно ${answer} раз.`)
+    } else {
+        alert(`Вы ответили верно ${answer} раза.`)
+    }
+}
