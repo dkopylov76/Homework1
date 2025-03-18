@@ -122,7 +122,6 @@ function gameStoneScissorsPaper() {
     let userChoice = prompt('Ваш выбор?');
     const choice = ['камень', 'ножницы', 'бумага'];
     const compChoice = Math.floor(Math.random() * choice.length + 1);
-    console.log(compChoice);
 
     if (userChoice.toLowerCase() === 'камень' && compChoice === 1) {
         alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Ничья!`);
