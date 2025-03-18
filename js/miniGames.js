@@ -125,31 +125,31 @@ function gameStoneScissorsPaper() {
     console.log(compChoice);
 
     if (userChoice.toLowerCase() === 'камень' && compChoice === 1) {
-        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Ничья!`);
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Ничья!`);
     }
     else if (userChoice.toLowerCase() === 'камень' && compChoice === 2) {
-        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Вы победили!`);
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Вы победили!`);
     }
     else if (userChoice.toLowerCase() === 'камень' && compChoice === 3) {
-        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Вы проиграли!`);
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Вы проиграли!`);
     }
     else if (userChoice.toLowerCase() === 'ножницы' && compChoice === 1) {
-        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Вы проиграли!`);
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Вы проиграли!`);
     }
     else if (userChoice.toLowerCase() === 'ножницы' && compChoice === 2) {
-        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Ничья!`);
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Ничья!`);
     }
     else if (userChoice.toLowerCase() === 'ножницы' && compChoice === 3) {
-        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Вы выиграли!`);
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Вы выиграли!`);
     }
     else if (userChoice.toLowerCase() === 'бумага' && compChoice === 1) {
-        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Вы выиграли!`);
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Вы выиграли!`);
     }
     else if (userChoice.toLowerCase() === 'бумага' && compChoice === 2) {
-        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Вы проиграли!`);
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Вы проиграли!`);
     }
     else if (userChoice.toLowerCase() === 'бумага' && compChoice === 3) {
-        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Ничья!`);
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Ничья!`);
     }
     else {
         alert('Введен некорректный вариант.')
