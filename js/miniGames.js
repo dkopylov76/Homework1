@@ -124,31 +124,31 @@ function gameStoneScissorsPaper() {
     const compChoice = Math.floor(Math.random() * (choice.length + 1));
     console.log(compChoice);
 
-    if (userChoice.toLowerCase === 'камень' && choice[compChoice] === 1) {
+    if (userChoice.toLowerCase === 'камень' && compChoice === 1) {
         alert('Ничья!');
     }
-    else if (userChoice.toLowerCase === 'камень' && choice[compChoice] === 2) {
+    else if (userChoice.toLowerCase === 'камень' && compChoice === 2) {
         alert('Вы победили!');
     }
-    else if (userChoice.toLowerCase === 'камень' && choice[compChoice] === 3) {
+    else if (userChoice.toLowerCase === 'камень' && compChoice === 3) {
         alert('Вы проиграли!');
     }
-    else if (userChoice.toLowerCase === 'ножницы' && choice[compChoice] === 1) {
+    else if (userChoice.toLowerCase === 'ножницы' && compChoice === 1) {
         alert('Вы проиграли!');
     }
-    else if (userChoice.toLowerCase === 'ножницы' && choice[compChoice] === 2) {
+    else if (userChoice.toLowerCase === 'ножницы' && compChoice === 2) {
         alert('Ничья!');
     }
-    else if (userChoice.toLowerCase === 'ножницы' && choice[compChoice] === 3) {
+    else if (userChoice.toLowerCase === 'ножницы' && compChoice === 3) {
         alert('Вы выиграли!');
     }
-    else if (userChoice.toLowerCase === 'бумага' && choice[compChoice] === 1) {
+    else if (userChoice.toLowerCase === 'бумага' && compChoice === 1) {
         alert('Вы выиграли!');
     }
-    else if (userChoice.toLowerCase === 'бумага' && choice[compChoice] === 2) {
+    else if (userChoice.toLowerCase === 'бумага' && compChoice === 2) {
         alert('Вы проиграли!');
     }
-    else if (userChoice.toLowerCase === 'бумага' && choice[compChoice] === 3) {
+    else if (userChoice.toLowerCase === 'бумага' && compChoice === 3) {
         alert('Ничья!');
     }
     else {
