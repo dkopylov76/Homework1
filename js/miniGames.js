@@ -125,7 +125,7 @@ function gameStoneScissorsPaper() {
     console.log(compChoice);
 
     if (userChoice.toLowerCase() === 'камень' && compChoice === 1) {
-        alert('Ничья!');
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Ничья!`);
     }
     else if (userChoice.toLowerCase() === 'камень' && compChoice === 2) {
         alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Вы победили!`);
