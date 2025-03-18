@@ -115,3 +115,42 @@ function gameQuiz() {
         alert(`Вы ответили верно ${answer} раза.`)
     }
 }
+
+//Игра "Камень, ножницы, бумага"
+function gameStoneScissorsPaper() {
+    alert('Сыграем в "камень, ножницы, бумага"?');
+    let userChoice = prompt('Ваш выбор?');
+    const choice = ['камень', 'ножницы', 'бумага'];
+    const compChoice = Math.floor(Math.random() * 10) + 1;
+
+    if (userChoice.toLowerCase === 'камень' && choice[compChoice] === 1) {
+        alert('Ничья!');
+    }
+    else if (userChoice.toLowerCase === 'камень' && choice[compChoice] === 2) {
+        alert('Вы победили!');
+    }
+    else if (userChoice.toLowerCase === 'камень' && choice[compChoice] === 3) {
+        alert('Вы проиграли!');
+    }
+    else if (userChoice.toLowerCase === 'ножницы' && choice[compChoice] === 1) {
+        alert('Вы проиграли!');
+    }
+    else if (userChoice.toLowerCase === 'ножницы' && choice[compChoice] === 2) {
+        alert('Ничья!');
+    }
+    else if (userChoice.toLowerCase === 'ножницы' && choice[compChoice] === 3) {
+        alert('Вы выиграли!');
+    }
+    else if (userChoice.toLowerCase === 'бумага' && choice[compChoice] === 1) {
+        alert('Вы выиграли!');
+    }
+    else if (userChoice.toLowerCase === 'бумага' && choice[compChoice] === 2) {
+        alert('Вы проиграли!');
+    }
+    else if (userChoice.toLowerCase === 'бумага' && choice[compChoice] === 3) {
+        alert('Ничья!');
+    }
+    else {
+        alert('Введен некорректный вариант.')
+    }
+}
