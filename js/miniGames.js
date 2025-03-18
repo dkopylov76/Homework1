@@ -128,28 +128,28 @@ function gameStoneScissorsPaper() {
         alert('Ничья!');
     }
     else if (userChoice.toLowerCase() === 'камень' && compChoice === 2) {
-        alert('Вы победили!');
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Вы победили!`);
     }
     else if (userChoice.toLowerCase() === 'камень' && compChoice === 3) {
-        alert('Вы проиграли!');
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Вы проиграли!`);
     }
     else if (userChoice.toLowerCase() === 'ножницы' && compChoice === 1) {
-        alert('Вы проиграли!');
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Вы проиграли!`);
     }
     else if (userChoice.toLowerCase() === 'ножницы' && compChoice === 2) {
-        alert('Ничья!');
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Ничья!`);
     }
     else if (userChoice.toLowerCase() === 'ножницы' && compChoice === 3) {
-        alert('Вы выиграли!');
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Вы выиграли!`);
     }
     else if (userChoice.toLowerCase() === 'бумага' && compChoice === 1) {
-        alert('Вы выиграли!');
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Вы выиграли!`);
     }
     else if (userChoice.toLowerCase() === 'бумага' && compChoice === 2) {
-        alert('Вы проиграли!');
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Вы проиграли!`);
     }
     else if (userChoice.toLowerCase() === 'бумага' && compChoice === 3) {
-        alert('Ничья!');
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice]}. Ничья!`);
     }
     else {
         alert('Введен некорректный вариант.')
