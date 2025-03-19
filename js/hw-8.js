@@ -40,7 +40,7 @@ console.log(filter(people1, isMale));
 
 //task 3
 const timeId = setInterval(() => {
-    console.log('3 секунды');
+    console.log(new Date());
 }, 3000);
 
 setTimeout(() => {
