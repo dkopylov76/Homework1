@@ -47,3 +47,13 @@ setTimeout(() => {
     clearInterval(timeId);
     console.log('30 секунд прошло.')
 }, 30000);
+
+//task 4
+function delayForSecond(callback) {
+    // Код писать можно только внутри этой функции
+   callback(setInterval(1000));
+}
+
+delayForSecond(function () {
+   console.log('Привет, Глеб!');
+})
