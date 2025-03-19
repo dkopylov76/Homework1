@@ -50,9 +50,23 @@ setTimeout(() => {
 
 //task 4
 function delayForSecond(callback) {
-    setTimeout(callback, 35000);
+    setTimeout(callback, 1000);
 }
 
 delayForSecond(function () {
    console.log('Привет, Глеб!');
 })
+
+//task 5
+function delayForSecond(cb) {
+    setTimeout(() => {
+        console.log('Прошла одна секунда');
+        if(cb) {  cb(); }
+    }, 1000)
+}
+
+function sayHi(name) {
+    console.log(`Привет, ${name}!`);
+}
+
+delayForSecond(sayHi, 'Глеб')
