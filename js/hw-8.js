@@ -10,25 +10,22 @@ console.log(people.sort((a, b) => a.age - b.age));
 
 //task 2
 function isPositive(number) {
-    console.log(number > 0);
+    return number > 0;
 }
-/*function isMale() {
-    // писать код тут
+function isMale(person) {
+    return person.gender === 'male';
 }
-*/
+
 function filter(arr, ruleFunction) {
     const output = [];
-
     for (let i = 0; i < arr.length; i++) {
         output.push(ruleFunction(arr[i]));
     }
-
     return output;
 }
 
-
 console.log(filter([3, -4, 1, 9], isPositive));
-/*    
+    
 const people1 = [
     {name: 'Глеб', gender: 'male'},
     {name: 'Анна', gender: 'female'},
@@ -37,4 +34,3 @@ const people1 = [
 ];
     
 console.log(filter(people1, isMale));
-*/
