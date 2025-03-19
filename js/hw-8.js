@@ -19,7 +19,9 @@ function isMale(person) {
 function filter(arr, ruleFunction) {
     const output = [];
     for (let i = 0; i < arr.length; i++) {
-        output.push(ruleFunction(arr[i]));
+        if (ruleFunction(arr[i])) {
+            output.push(arr[i]);
+        }
     }
     return output;
 }
