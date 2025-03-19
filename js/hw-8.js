@@ -1,3 +1,4 @@
+/*
 //task 1
 const people = [
     { name: 'Глеб', age: 29 },
@@ -56,17 +57,17 @@ function delayForSecond(callback) {
 delayForSecond(function () {
    console.log('Привет, Глеб!');
 })
-
+*/
 //task 5
 function delayForSecond(cb) {
     setTimeout(() => {
-        console.log('Прошла одна секунда');
+        console.log('Прошло пять секунд');
         if(cb) {  cb(); }
-    }, 1000)
+    }, 5000)
 }
 
 function sayHi(name) {
     console.log(`Привет, ${name}!`);
 }
 
-delayForSecond(sayHi, 'Глеб')
+delayForSecond(() => sayHi('Глеб'));
