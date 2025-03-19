@@ -15,11 +15,18 @@ function isPositive(number) {
 /*function isMale() {
     // писать код тут
 }
- 
-function filter() {
-    const filteredNumbers = numbers.filter(number => number > 10)
+*/
+function filter(arr, ruleFunction) {
+    const output = [];
+
+    for (let i = 0; i < arr.length; i++) {
+        output.push(ruleFunction(arr[i]));
+    }
+
+    return output;
 }
-*/    
+
+
 console.log(filter([3, -4, 1, 9], isPositive));
 /*    
 const people1 = [
