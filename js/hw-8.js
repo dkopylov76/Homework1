@@ -12,6 +12,7 @@ console.log(people.sort((a, b) => a.age - b.age));
 function isPositive(number) {
     return number > 0;
 }
+
 function isMale(person) {
     return person.gender === 'male';
 }
@@ -36,3 +37,13 @@ const people1 = [
 ];
     
 console.log(filter(people1, isMale));
+
+//task 3
+const timeId = setInterval(() => {
+    console.log('3 секунды');
+}, 3000);
+
+setTimeout(() => {
+    clearInterval(timeId);
+    console.log('30 секунд прошло.')
+}, 30000);
