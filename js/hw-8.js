@@ -10,7 +10,7 @@ console.log(people.sort((a, b) => a.age - b.age));
 
 //task 2
 function isPositive(number) {
-    return number > 0;
+    console.log(number > 0);
 }
 /*function isMale() {
     // писать код тут
