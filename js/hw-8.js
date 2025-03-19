@@ -46,12 +46,11 @@ const timeId = setInterval(() => {
 setTimeout(() => {
     clearInterval(timeId);
     console.log('30 секунд прошло.')
-}, 30000);
+}, 7000);
 
 //task 4
 function delayForSecond(callback) {
-    // Код писать можно только внутри этой функции
-   callback(setInterval(1000));
+    setTimeout(callback, 5000);
 }
 
 delayForSecond(function () {
