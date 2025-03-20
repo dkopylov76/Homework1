@@ -11,9 +11,10 @@
     <script>
         const titleEl = document.querySelector('.title');
         const buttonEl = document.querySelector('.btn');
-        buttonEl.addEventListener('click', function() {
+        buttonEl.addEventListener('click', btnClick);
+        function btnClick() {
             document.querySelector('.title').style.color = 'transparent';
-        });
+        };
     </script>
 </body>
 </html>
