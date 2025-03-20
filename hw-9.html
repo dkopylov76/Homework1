@@ -11,19 +11,16 @@
     <script>
         const titleEl = document.querySelector('.title');
         const buttonEl = document.querySelector('.btn');
-        const titleElColor = 0;
-        
-        buttonEl.addEventListener('click', btnClick);
+                
+        buttonEl.addEventListener('click', btnClick());
         
         function btnClick() {
-            if (titleElColor = 0) {
-                document.querySelector('.title').style.color = 'transparent';
-                titleElColor = 1;
+            if (titleEl.style.display === 'block') {
+                titleEl.style.display === 'none';
             } else {
-                document.querySelector('.title').style.color = 'black';
-                titleElColor = 0;
+                titleEl.style.display === 'block';
             }
-        };
+        }
     </script>
 </body>
 </html>
