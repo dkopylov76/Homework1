@@ -11,9 +11,18 @@
     <script>
         const titleEl = document.querySelector('.title');
         const buttonEl = document.querySelector('.btn');
+        const titleElColor = 0;
+        
         buttonEl.addEventListener('click', btnClick);
+        
         function btnClick() {
-            document.querySelector('.title').style.color = 'transparent';
+            if (titleElColor = 0) {
+                document.querySelector('.title').style.color = 'transparent';
+                titleElColor = 1;
+            } else {
+                document.querySelector('.title').style.color = 'black';
+                titleElColor = 0;
+            }
         };
     </script>
 </body>
