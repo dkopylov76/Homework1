@@ -9,8 +9,11 @@
     <h1 class="title">Lorem, ipsum dolor.</h1>
     <button class="btn">On-Off</button>
     <script>
-        document.querySelector('.title').style.color = 'blue';
-        document.querySelector('.btn').style.color = 'red';
+        const titleEl = document.querySelector('.title').style.color = 'blue';
+        const buttonEl = document.querySelector('.btn').style.color = 'red';
+        buttonEl.addEventListener('click', function() {
+            titleEl = document.querySelector('.title').style.color = 'transparent';
+        })
     </script>
 </body>
 </html>
