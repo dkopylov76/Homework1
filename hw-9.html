@@ -13,7 +13,10 @@
         const buttonEl = document.querySelector('.btn');
         buttonEl.addEventListener('click', function() {
             titleEl = document.querySelector('.title').style.color = 'transparent';
-        })
+        });
+        buttonEl.addEventListener('click', function() {
+            titleEl = document.querySelector('.title');
+        });
     </script>
 </body>
 </html>
