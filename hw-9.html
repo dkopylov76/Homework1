@@ -20,9 +20,11 @@
         console.log(buttonEl);
         //titleEl.style.color = 'blue';
         
-        /*buttonEl.addEventListener('click', btnClick());
+        buttonEl.addEventListener('click', function(e) {
+            console.log(1);
+        });
         
-        function btnClick() {
+        /*function btnClick() {
             if (titleEl.style.color === 'blue') {
                 titleEl.style.color = 'red';
             } else {
