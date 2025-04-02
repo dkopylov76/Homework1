@@ -24,6 +24,10 @@
     <button class="btn3">Change text</button>
 
     <p>Задание 4</p>
+    <p class="description4">Lorem ipsum dolor sit amet.</p>
+    <p class="description4">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="description4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    <button class="btn4">Change description</button>
 
     <p>Задание 5</p>
 
@@ -63,6 +67,14 @@
         });
 
         //Task 4
+        const descriptionElFour = document.querySelectorAll('.description4');
+        console.log(descriptionElFour);
+        const buttonElFour = document.querySelector('.btn4');
+        console.log(buttonElFour);
+                
+        buttonElFour.addEventListener('click', () => {
+            descriptionElFour.textContent = 'Измененный текст';
+        });
 
         //Task 5
 
