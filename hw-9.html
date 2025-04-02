@@ -5,24 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homework9</title>
     <style>
-        .title_transp {
+        .title1_transp {
             color: transparent;
         }
     </style>
 </head>
 <body>
-    <h1 class="title">Lorem, ipsum dolor.</h1>
-    <button class="btn">On-Off</button>
+    <p>Задание 1</p>
+    <h1 class="title1">Lorem, ipsum dolor.</h1>
+    <button class="btn1">On-Off</button>
+
+    <p>Задание 2</p>
+    <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam suscipit ex libero rem praesentium magnam maiores quod eaque voluptate eius!</p>
+    <button class="btn2">Change color</button>
+
+    <p>Задание 3</p>
+
+    <p>Задание 4</p>
+
+    <p>Задание 5</p>
+
+    <p>Задание 6</p>
+
+    <p>Задание 7</p>
+
     <script>
-        const titleEl = document.querySelector('.title');
-        console.log(titleEl);
-        const buttonEl = document.querySelector('.btn');
-        console.log(buttonEl);
+        const titleElOne = document.querySelector('.title1');
+        console.log(titleElOne);
+        const buttonElOne = document.querySelector('.btn1');
+        console.log(buttonElOne);
                 
-        buttonEl.addEventListener('click', () => {
-            titleEl.classList.toggle('title_transp');
+        buttonElOne.addEventListener('click', () => {
+            titleElOne.classList.toggle('title1_transp');
         });
         
+        const textElTwo = document.querySelector('.text2');
+        console.log(textElTwo);
+        const buttonElTwo = document.querySelector('.btn2');
+        console.log(buttonElTwo);
+                
+        buttonElTwo.addEventListener('click', () => {
+            textElTwo.style.color = 'blue';
+        });
+
+
         /*function btnClick() {
             if (titleEl.style.color === 'blue') {
                 titleEl.style.color = 'red';
