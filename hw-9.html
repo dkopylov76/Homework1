@@ -10,18 +10,20 @@
     <button class="btn">On-Off</button>
     <script>
         const titleEl = document.querySelector('.title');
+        console.log(titleEl);
         const buttonEl = document.querySelector('.btn');
+        console.log(buttonEl);
         titleEl.style.color = 'blue';
         
         buttonEl.addEventListener('click', btnClick());
         
-        function btnClick() {
+        /*function btnClick() {
             if (titleEl.style.color === 'blue') {
                 titleEl.style.color = 'transparent'
             } else {
                 titleEl.style.color = 'blue';
             };
-        }
+        }*/
     </script>
 </body>
 </html>
