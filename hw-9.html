@@ -73,7 +73,9 @@
         console.log(buttonElFour);
                 
         buttonElFour.addEventListener('click', () => {
-            descriptionElFour.textContent = 'Измененный текст';
+            descriptionElFour.forEach(element => {
+                textContent = 'Измененный текст';
+            });
         });
 
         //Task 5
