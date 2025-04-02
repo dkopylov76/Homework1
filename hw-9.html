@@ -37,6 +37,7 @@
     <button class="btn5">Change description_5</button>
 
     <p>Задание 6</p>
+    <button class="btn6">Add paragraph</button>
 
     <p>Задание 7</p>
 
@@ -96,6 +97,13 @@
         });
 
         //Task 6
+        const buttonElSix = document.querySelector('.btn6');
+        console.log(buttonElSix);
+                
+        buttonElSix.addEventListener('click', () => {
+            const textElSix = document.createElement('p');
+            textElSix.textContent = 'Lorem, ipsum dolor.';
+        });
 
         //Task 7
 
