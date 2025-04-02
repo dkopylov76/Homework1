@@ -7,6 +7,9 @@
     <style>
         .title {
             color: red;
+            &_transp {
+                color: transparent;
+            }
         }
     </style>
 </head>
@@ -19,8 +22,8 @@
         const buttonEl = document.querySelector('.btn');
         console.log(buttonEl);
                 
-        buttonEl.addEventListener('click', function() {
-            titleEl.style.color = 'blue';
+        buttonEl.addEventListener('click', () => {
+            titleEl.classList.add('title_transp');
         });
         
         /*function btnClick() {
