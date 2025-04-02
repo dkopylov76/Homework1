@@ -115,3 +115,42 @@ function gameQuiz() {
         alert(`Вы ответили верно ${answer} раза.`)
     }
 }
+
+//Игра "Камень, ножницы, бумага"
+function gameStoneScissorsPaper() {
+    alert('Сыграем в "камень, ножницы, бумага"?');
+    let userChoice = prompt('Ваш выбор?');
+    const choice = ['камень', 'ножницы', 'бумага'];
+    const compChoice = Math.floor(Math.random() * choice.length + 1);
+
+    if (userChoice.toLowerCase() === 'камень' && compChoice === 1) {
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Ничья!`);
+    }
+    else if (userChoice.toLowerCase() === 'камень' && compChoice === 2) {
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Вы победили!`);
+    }
+    else if (userChoice.toLowerCase() === 'камень' && compChoice === 3) {
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Вы проиграли!`);
+    }
+    else if (userChoice.toLowerCase() === 'ножницы' && compChoice === 1) {
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Вы проиграли!`);
+    }
+    else if (userChoice.toLowerCase() === 'ножницы' && compChoice === 2) {
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Ничья!`);
+    }
+    else if (userChoice.toLowerCase() === 'ножницы' && compChoice === 3) {
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Вы выиграли!`);
+    }
+    else if (userChoice.toLowerCase() === 'бумага' && compChoice === 1) {
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Вы выиграли!`);
+    }
+    else if (userChoice.toLowerCase() === 'бумага' && compChoice === 2) {
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Вы проиграли!`);
+    }
+    else if (userChoice.toLowerCase() === 'бумага' && compChoice === 3) {
+        alert(`Ваш выбор - ${userChoice}. Выбор компьютера - ${choice[compChoice - 1]}. Ничья!`);
+    }
+    else {
+        alert('Введен некорректный вариант.')
+    }
+}
