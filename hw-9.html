@@ -20,6 +20,8 @@
     <button class="btn2">Change color</button>
 
     <p>Задание 3</p>
+    <h1 class="title3">Lorem ipsum dolor sit amet.</h1>
+    <button class="btn3">Change text</button>
 
     <p>Задание 4</p>
 
@@ -30,6 +32,7 @@
     <p>Задание 7</p>
 
     <script>
+        //Task 1
         const titleElOne = document.querySelector('.title1');
         console.log(titleElOne);
         const buttonElOne = document.querySelector('.btn1');
@@ -39,6 +42,7 @@
             titleElOne.classList.toggle('title1_transp');
         });
         
+        //Task 2
         const textElTwo = document.querySelector('.text2');
         console.log(textElTwo);
         const buttonElTwo = document.querySelector('.btn2');
@@ -47,6 +51,24 @@
         buttonElTwo.addEventListener('click', () => {
             textElTwo.style.color = 'blue';
         });
+
+        //Task 3
+        const titleElThree = document.querySelector('.title3');
+        console.log(titleElThree);
+        const buttonElThree = document.querySelector('.btn3');
+        console.log(buttonElThree);
+                
+        buttonElThree.addEventListener('click', () => {
+            titleElThree.textContent = 'Привет, мир!';
+        });
+
+        //Task 4
+
+        //Task 5
+
+        //Task 6
+
+        //Task 7
 
 
         /*function btnClick() {
