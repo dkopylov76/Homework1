@@ -42,6 +42,11 @@
     </div>
 
     <p>Задание 7</p>
+    <p class="description">Lorem, ipsum dolor.</p>
+    <p class="description7">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="description">Lorem ipsum dolor sit.</p>
+    <p class="description7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <button class="btn7">Remove paragraph</button>
 
     <script>
         //Task 1
@@ -111,15 +116,13 @@
         });
 
         //Task 7
-
-
-        /*function btnClick() {
-            if (titleEl.style.color === 'blue') {
-                titleEl.style.color = 'red';
-            } else {
-                titleEl.style.color = 'blue';
-            };
-        }*/
+        const buttonElSeven = document.querySelector('.btn7');
+        console.log(buttonElSeven);
+                
+        buttonElSeven.addEventListener('click', () => {
+            const descriptionElSeven = document.querySelector('.description7');
+            descriptionElSeven.remove();
+        });
     </script>
 </body>
 </html>
