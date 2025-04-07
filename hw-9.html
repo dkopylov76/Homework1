@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework9</title>
+    <style>
+        .title1_transp {
+            color: transparent;
+        }
+    </style>
+</head>
+<body>
+    <p>Задание 1</p>
+    <h1 class="title1">Lorem, ipsum dolor.</h1>
+    <button class="btn1">On-Off</button>
+
+    <p>Задание 2</p>
+    <p class="text2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam suscipit ex libero rem praesentium magnam maiores quod eaque voluptate eius!</p>
+    <button class="btn2">Change color</button>
+
+    <p>Задание 3</p>
+    <h1 class="title3">Lorem ipsum dolor sit amet.</h1>
+    <button class="btn3">Change text</button>
+
+    <p>Задание 4</p>
+    <p class="description4">Lorem ipsum dolor sit amet.</p>
+    <p class="description4">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="description4">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    <button class="btn4">Change description</button>
+
+    <p>Задание 5</p>
+    <p class="description">Lorem, ipsum dolor.</p>
+    <p class="description5">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="description">Lorem ipsum dolor sit.</p>
+    <p class="description5">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <button class="btn5">Change description_5</button>
+
+    <p>Задание 6</p>
+    <div class="content6">
+        <button class="btn6">Add paragraph</button>
+    </div>
+
+    <p>Задание 7</p>
+    <p class="description">Lorem, ipsum dolor.</p>
+    <p class="description7">Lorem ipsum dolor sit amet consectetur.</p>
+    <p class="description">Lorem ipsum dolor sit.</p>
+    <p class="description7">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <button class="btn7">Remove paragraph</button>
+
+    <script>
+        //Task 1
+        const titleElOne = document.querySelector('.title1');
+        console.log(titleElOne);
+        const buttonElOne = document.querySelector('.btn1');
+        console.log(buttonElOne);
+                
+        buttonElOne.addEventListener('click', () => {
+            titleElOne.classList.toggle('title1_transp');
+        });
+        
+        //Task 2
+        const textElTwo = document.querySelector('.text2');
+        console.log(textElTwo);
+        const buttonElTwo = document.querySelector('.btn2');
+        console.log(buttonElTwo);
+                
+        buttonElTwo.addEventListener('click', () => {
+            textElTwo.style.color = 'blue';
+        });
+
+        //Task 3
+        const titleElThree = document.querySelector('.title3');
+        console.log(titleElThree);
+        const buttonElThree = document.querySelector('.btn3');
+        console.log(buttonElThree);
+                
+        buttonElThree.addEventListener('click', () => {
+            titleElThree.textContent = 'Привет, мир!';
+        });
+
+        //Task 4
+        const descriptionElFour = document.querySelectorAll('.description4');
+        console.log(descriptionElFour);
+        const buttonElFour = document.querySelector('.btn4');
+        console.log(buttonElFour);
+                
+        buttonElFour.addEventListener('click', () => {
+            descriptionElFour.forEach(description4 => {
+                description4.textContent = 'Измененный текст';
+            });
+        });
+
+        //Task 5
+        const descriptionElFive = document.querySelectorAll('.description5');
+        console.log(descriptionElFive);
+        const buttonElFive = document.querySelector('.btn5');
+        console.log(buttonElFive);
+                
+        buttonElFive.addEventListener('click', () => {
+            descriptionElFive.forEach(description5 => {
+                description5.textContent = 'Новый текст';
+            });
+        });
+
+        //Task 6
+        const contentElSix = document.querySelector('.content6');
+        console.log(contentElSix);
+        const buttonElSix = document.querySelector('.btn6');
+        console.log(buttonElSix);
+                
+        buttonElSix.addEventListener('click', () => {
+            const textElSix = document.createElement('p');
+            textElSix.textContent = 'Новый абзац';
+            contentElSix.appendChild(textElSix);
+        });
+
+        //Task 7
+        const buttonElSeven = document.querySelector('.btn7');
+        console.log(buttonElSeven);
+                
+        buttonElSeven.addEventListener('click', () => {
+            const descriptionElSeven = document.querySelector('.description7');
+            descriptionElSeven.remove();
+        });
+    </script>
+</body>
+</html>
