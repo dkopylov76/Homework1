@@ -156,11 +156,13 @@ function gameStoneScissorsPaper() {
 }
 
 //Игра "Генератор случайных цветов"
-const blockElGames = document.querySelector('.games');
-console.log(blockElGames);
-const buttonGameSix = document.querySelectorAll('.minigames__card-left-button');
-console.log(buttonGameSix);
-                
-    buttonGameSix.addEventListener('click', () => {
-    blockElGames.style.color = 'blue';
-    });
+function gameRandomColorGenerator() {
+    const blockElGames = document.querySelector('.games');
+    console.log(blockElGames);
+    const buttonGameSix = document.querySelectorAll('.minigames__card-left-button');
+    console.log(buttonGameSix);
+                    
+        buttonGameSix.addEventListener('click', () => {
+        blockElGames.style.color = 'blue';
+        });
+}
