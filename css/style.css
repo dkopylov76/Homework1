@@ -512,7 +512,7 @@ body {
   }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 1024px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
