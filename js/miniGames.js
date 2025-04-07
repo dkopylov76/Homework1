@@ -157,13 +157,21 @@ function gameStoneScissorsPaper() {
 
 //Игра "Генератор случайных цветов"
 function gameRandomColorGenerator() {
-    for (let i = 0; i < 2; i++) {
+    const red = Math.floor(Math.random() * 255) + 1;
+    const green = Math.floor(Math.random() * 255) + 1;
+    const blue = Math.floor(Math.random() * 255) + 1;
+    let randomColor = `rgb(${red}, ${green}, ${blue})`;
+    console.log(randomColor);
+
+
+
+    /*for (let i = 0; i < 2; i++) {
         return color = Math.floor(Math.random() * 255);
     }
     let randomColor = `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
     console.log(randomColor);
     
-    /*const blockElGames = document.querySelector('.games');
+    const blockElGames = document.querySelector('.games');
     console.log(blockElGames);
     const buttonGameSix = document.querySelectorAll('.minigames__card-left-button');
     console.log(buttonGameSix);
