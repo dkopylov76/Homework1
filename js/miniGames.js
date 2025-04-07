@@ -166,5 +166,5 @@ function gameRandomColorGenerator() {
     const blockElGames = document.querySelector('.games');
     console.log(blockElGames);
                         
-    blockElGames.style.color = randomColor;
+    blockElGames.style.backgroundColor = randomColor;
 }
