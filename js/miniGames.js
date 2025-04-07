@@ -158,7 +158,7 @@ function gameStoneScissorsPaper() {
 //Игра "Генератор случайных цветов"
 function gameRandomColorGenerator() {
     for (let i = 0; i < 2; i++) {
-        color = Math.floor(Math.random() * 255);
+        return color = Math.floor(Math.random() * 255);
     }
     let randomColor = `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
     console.log(randomColor);
