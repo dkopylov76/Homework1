@@ -369,7 +369,7 @@ body {
   line-height: 29px;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 767px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
