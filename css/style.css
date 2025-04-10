@@ -369,7 +369,7 @@ body {
   line-height: 29px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 376px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -511,7 +511,7 @@ body {
     line-height: 20px;
   }
 }
-@media (max-width: 1024px) {
+@media (min-width: 376px) and (max-width: 1024px) {
   .center {
     padding-left: calc(50% - 512px);
     padding-right: calc(50% - 512px);
