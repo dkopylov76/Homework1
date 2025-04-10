@@ -522,22 +522,23 @@ body {
   }
   .header__content {
     padding-top: 170px;
+    padding-left: 48px;
   }
   .header__h1 {
     font-size: 48px;
-    line-height: 49px;
+    line-height: 48px;
     text-align: left;
   }
   .header__text {
     padding-bottom: 48px;
-    font-size: 20px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 24px;
     text-align: left;
   }
   .header__button {
-    width: 285px;
-    height: 55px;
-    font-size: 16px;
+    width: 275px;
+    height: 50px;
+    font-size: 22px;
   }
   .header__bottom {
     width: 1717.4px;
