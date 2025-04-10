@@ -522,19 +522,17 @@ body {
   }
   .header__content {
     padding-top: 170px;
-    align-items: start;
   }
   .header__h1 {
-    width: 262px;
-    font-size: 40px;
+    font-size: 48px;
     line-height: 49px;
-    text-align: center;
+    text-align: left;
   }
   .header__text {
-    padding-bottom: 36px;
-    font-size: 16px;
+    padding-bottom: 48px;
+    font-size: 20px;
     line-height: 20px;
-    text-align: center;
+    text-align: left;
   }
   .header__button {
     width: 285px;
