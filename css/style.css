@@ -521,7 +521,7 @@ body {
     height: 750px;
   }
   .header__content {
-    padding-top: 170px;
+    padding-top: 230px;
     padding-left: 48px;
   }
   .header__h1 {
@@ -550,5 +550,105 @@ body {
   .header__bottom-text {
     font-size: 16px;
     text-align: left;
+  }
+  .header__img-1 {
+    display: none;
+  }
+  .header__img-2 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: calc(50% - 151px);
+    top: 97px;
+  }
+  .header__img-3 {
+    position: absolute;
+    width: 21px;
+    height: 21px;
+    left: calc(50% - 97px);
+    top: 64px;
+  }
+  .header__img-4 {
+    position: absolute;
+    width: 39px;
+    height: 41px;
+    right: calc(50% - 154px);
+    top: 580px;
+  }
+  .header__img-5 {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: calc(50% - 102px);
+    top: 557px;
+  }
+  .header__img-6 {
+    display: block;
+    position: absolute;
+    right: calc(50% - 275px);
+    top: -80px;
+  }
+  .games {
+    display: none;
+  }
+  .minigames__h1 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-size: 40px;
+    line-height: 49px;
+  }
+  .minigames__cards {
+    gap: 24px;
+  }
+  .minigames__card {
+    max-width: 343px;
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  .minigames__card-left {
+    display: flex;
+    flex-direction: column;
+    padding: 29px;
+  }
+  .minigames__card-left-name {
+    width: 285px;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: left;
+    padding-bottom: 16px;
+  }
+  .minigames__card-left-text {
+    width: 285px;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 32px;
+  }
+  .minigames__card-left-button {
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+  }
+  .minigames__card-right-img {
+    max-height: 400px;
+  }
+  .minigames__img-1 {
+    display: none;
+  }
+  .minigames__img-2 {
+    display: none;
+  }
+  .minigames__img-3 {
+    display: none;
+  }
+  .minigames__img-4 {
+    display: none;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
