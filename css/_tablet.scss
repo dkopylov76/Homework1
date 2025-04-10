@@ -91,9 +91,8 @@
             gap: 24px;
         }
         &__card {
-            max-width: 343px;
             width: 100%;
-            flex-direction: column-reverse;
+            flex-direction: row;
             &-left {
                 display: flex;
                 flex-direction: column;

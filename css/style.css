@@ -601,9 +601,8 @@ body {
     gap: 24px;
   }
   .minigames__card {
-    max-width: 343px;
     width: 100%;
-    flex-direction: column-reverse;
+    flex-direction: row;
   }
   .minigames__card-left {
     display: flex;
