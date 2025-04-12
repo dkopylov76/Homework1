@@ -1,6 +1,5 @@
 .header {
     position: relative;
-    display: flex;
     height: 800px;
     background: rgb(225, 255, 143);
     background-size: contain;
@@ -83,19 +82,18 @@
         }
     }
     &__bottom {
-        position: absolute;
-        max-width: 100%;
+        position: relative;
+        width: 3220px;
         height: 90px;
-        margin-top: 710px;
+        margin-top: 151px;
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
         align-items: center;
         gap: 51px;
-        overflow: hidden;
         animation: scroll-left 10s linear infinite;
         animation-direction: normal;
-        background: rgb(188, 236, 48);
+        background-color: rgb(188, 236, 48);
         left: 0px;
         &-text {
             color: rgb(32, 32, 39);
