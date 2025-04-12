@@ -150,16 +150,152 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    .header {
+        overflow: hidden;
+        height: 700px;
+        &__content {
+            padding-top: 250px;
+            padding-left: 48px;
+        }
+        &__h1 {
+            font-size: 48px;
+            line-height: 48px;
+            text-align: left;
+            padding-bottom: 16px;
+        }
+        &__text {
+            padding-bottom: 70px;
+            font-size: 22px;
+            line-height: 24px;
+            text-align: left;
+        }
+        &__button {
+            width: 275px;
+            height: 50px;
+            font-size: 22px;
+        }
+        &__bottom {
+            width: 1800.4px;
+            height: 70.34px;
+            margin-top: 57px;
+            gap: 27px;
+            left: 0px;
+            &-text {
+                font-size: 17px;
+                text-align: left;
+            }
+        }
+        &__img {
+            &-1 {
+                display: none;
+            }
+            &-2 {
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                left: calc(50% - 350px);
+                top: 60px;
+            }
+            &-3 {
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                left: calc(50% - 280px);
+                top: 115px;
+            }
+            &-4 {
+                position: absolute;
+                width: 39px;
+                height: 41px;
+                right: calc(50% - 320px);
+                top: 550px;
+            }
+            &-5 {
+                position: absolute;
+                width: 20px;
+                height: 20px;
+                right: calc(50% - 260px);
+                top: 530px;
+            }
+            &-6 {
+                display: block;
+                position: absolute;
+                right: calc(0% - 60px);
+                top: 10px;
+            }
+        }
+    }
+    .games {
+        display: none;
+    }
     .minigames {
+        &__h1 {
+            padding-top: 48px;
+            padding-bottom: 48px;
+            font-size: 40px;
+            line-height: 49px;
+        }
+        &__cards {
+            gap: 24px;
+        }
         &__card {
+            width: 100%;
+            flex-direction: row;
             &-left {
+                display: flex;
+                flex-direction: column;
+                padding: 24px;
                 justify-content: space-around;
+                &-name {
+                    width: 285px;
+                    font-size: 32px;
+                    line-height: 39px;
+                    text-align: left;
+                    padding-bottom: 10px;
+                }
+                &-text {
+                    width: 285px;
+                    font-size: 16px;
+                    line-height: 20px;
+                    padding-bottom: 0px;
+                }
+                &-button {
+                    width: 285px;
+                    height: 55px;
+                    font-size: 16px;
+                }
             }
             &-right {
                 &-img {
                     max-height: 390px;
                 }
             }
+        }
+        &__img {
+            &-1 {
+                display: none;
+            }
+            &-2 {
+                display: none;
+            }
+            &-3 {
+                display: none;
+            }
+            &-4 {
+                display: none;
+            }
+        }
+    }
+    .footer {
+        height: 100px;
+        &__text {
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
         }
     }
 }
