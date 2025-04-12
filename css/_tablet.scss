@@ -1,4 +1,4 @@
-@media (min-width: 426px) and (max-width: 1024px) {
+@media (min-width: 426px) and (max-width: 768px) {
     .center {
         padding-left: 24px;
         padding-right: 24px;
@@ -30,7 +30,7 @@
         &__bottom {
             width: 1800.4px;
             height: 70.34px;
-            margin-top: 157px;
+            margin-top: 57px;
             gap: 27px;
             left: 0px;
             &-text {
@@ -97,19 +97,20 @@
             &-left {
                 display: flex;
                 flex-direction: column;
-                padding: 29px;
+                padding: 24px;
+                justify-content: space-between;
                 &-name {
                     width: 285px;
                     font-size: 32px;
                     line-height: 39px;
                     text-align: left;
-                    padding-bottom: 16px;
+                    padding-bottom: 10px;
                 }
                 &-text {
                     width: 285px;
                     font-size: 16px;
                     line-height: 20px;
-                    padding-bottom: 32px;
+                    padding-bottom: 0px;
                 }
                 &-button {
                     width: 285px;
@@ -119,7 +120,7 @@
             }
             &-right {
                 &-img {
-                    max-height: 400px;
+                    max-height: 310px;
                 }
             }
         }
@@ -144,6 +145,21 @@
             font-size: 16px;
             font-weight: 600;
             line-height: 20px;
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .minigames {
+        &__card {
+            &-left {
+                justify-content: space-around;
+            }
+            &-right {
+                &-img {
+                    max-height: 390px;
+                }
+            }
         }
     }
 }
