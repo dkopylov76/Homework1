@@ -105,9 +105,9 @@ body {
 }
 .header__bottom {
   position: relative;
-  width: 3220px;
+  width: 3060px;
   height: 90px;
-  margin-top: 151px;
+  margin-top: 153px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -414,7 +414,7 @@ body {
   .header__bottom {
     width: 1717.4px;
     height: 51.34px;
-    margin-top: 105px;
+    margin-top: 107px;
     gap: 27px;
     left: 0px;
   }
