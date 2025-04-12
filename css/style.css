@@ -384,7 +384,7 @@ body {
     transform: translateX(-100%);
   }
 }
-@media (min-width: 376px) and (max-width: 1024px) {
+@media (min-width: 426px) and (max-width: 1024px) {
   .center {
     padding-left: 24px;
     padding-right: 24px;
@@ -524,7 +524,7 @@ body {
     line-height: 20px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
