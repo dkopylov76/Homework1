@@ -1,4 +1,4 @@
-@media (max-width: 376px) {
+@media (max-width: 425px) {
     .center {
         padding-left: 16px;
         padding-right: 16px;
@@ -21,16 +21,34 @@
             font-size: 16px;
             line-height: 20px;
             text-align: center;
+            width: 296px;
         }
-        &__button {
+        &__button1 {
+            display: none;
+        }
+        &__button2 {
+            display: flex;
             width: 285px;
             height: 55px;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgb(32, 32, 39);
+            border-radius: 60px;
+            color: rgb(255, 255, 255);
             font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            background: rgb(32, 32, 39);
+            transition: background 1s;
+            &:hover {
+                background: rgb(255, 255, 255);
+                color: rgb(32, 32, 39);
+            }
         }
         &__bottom {
             width: 1717.4px;
             height: 51.34px;
-            margin-top: 105px;
+            margin-top: 107px;
             gap: 27px;
             left: 0px;
             &-text {
@@ -90,6 +108,7 @@
         }
         &__cards {
             gap: 24px;
+            align-items: center;
         }
         &__card {
             max-width: 343px;
