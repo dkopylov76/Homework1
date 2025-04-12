@@ -394,16 +394,17 @@ body {
     height: 700px;
   }
   .header__content {
-    padding-top: 230px;
+    padding-top: 250px;
     padding-left: 48px;
   }
   .header__h1 {
     font-size: 48px;
     line-height: 48px;
     text-align: left;
+    padding-bottom: 16px;
   }
   .header__text {
-    padding-bottom: 48px;
+    padding-bottom: 70px;
     font-size: 22px;
     line-height: 24px;
     text-align: left;
@@ -416,7 +417,7 @@ body {
   .header__bottom {
     width: 1800.4px;
     height: 70.34px;
-    margin-top: 114px;
+    margin-top: 157px;
     gap: 27px;
     left: 0px;
   }
