@@ -22,10 +22,23 @@
             line-height: 20px;
             text-align: center;
         }
-        &__button {
+        &__button1 {
+            display: none;
+        }
+        &__button2 {
+            display: flex;
             width: 285px;
             height: 55px;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgb(32, 32, 39);
+            border-radius: 60px;
+            color: rgb(255, 255, 255);
             font-size: 16px;
+            font-weight: 600;
+            text-decoration: none;
+            background: rgb(32, 32, 39);
+            transition: background 1s;
         }
         &__bottom {
             width: 1717.4px;
