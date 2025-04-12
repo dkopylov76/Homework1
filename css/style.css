@@ -404,7 +404,7 @@ body {
   }
   .header__text {
     padding-bottom: 48px;
-    font-size: 24px;
+    font-size: 22px;
     line-height: 24px;
     text-align: left;
   }
@@ -524,16 +524,13 @@ body {
     line-height: 20px;
   }
 }
-@media (min-width: 768px) and (max-width: 833px) {
+@media (min-width: 376px) and (max-width: 833px) {
   .center {
     padding-left: 24px;
     padding-right: 24px;
   }
-  .product {
-    width: 345px;
-  }
 }
-@media (max-width: 767px) {
+@media (max-width: 375px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
