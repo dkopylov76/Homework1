@@ -391,7 +391,7 @@ body {
   }
   .header {
     overflow: hidden;
-    height: 670px;
+    height: 700px;
   }
   .header__content {
     padding-top: 230px;
@@ -414,14 +414,14 @@ body {
     font-size: 22px;
   }
   .header__bottom {
-    width: 1717.4px;
-    height: 51.34px;
-    margin-top: 103px;
+    width: 1800.4px;
+    height: 70.34px;
+    margin-top: 114px;
     gap: 27px;
     left: 0px;
   }
   .header__bottom-text {
-    font-size: 16px;
+    font-size: 17px;
     text-align: left;
   }
   .header__img-1 {
@@ -548,6 +548,7 @@ body {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+    width: 296px;
   }
   .header__button1 {
     display: none;
@@ -630,6 +631,7 @@ body {
   }
   .minigames__cards {
     gap: 24px;
+    align-items: center;
   }
   .minigames__card {
     max-width: 343px;

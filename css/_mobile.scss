@@ -21,6 +21,7 @@
             font-size: 16px;
             line-height: 20px;
             text-align: center;
+            width: 296px;
         }
         &__button1 {
             display: none;
@@ -107,6 +108,7 @@
         }
         &__cards {
             gap: 24px;
+            align-items: center;
         }
         &__card {
             max-width: 343px;
