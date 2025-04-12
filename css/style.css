@@ -23,6 +23,7 @@ body {
 
 .header {
   position: relative;
+  display: flex;
   height: 800px;
   background: rgb(225, 255, 143);
   background-size: contain;
@@ -109,9 +110,9 @@ body {
   height: 90px;
   margin-top: 156px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   gap: 51px;
   overflow: hidden;
   animation: scroll-left 10s linear infinite;
