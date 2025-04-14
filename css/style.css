@@ -285,7 +285,6 @@ body {
   padding-bottom: 24px;
 }
 .minigames__card-left-text {
-  width: 457px;
   color: rgb(32, 32, 39);
   font-size: 24px;
   font-weight: 400;
@@ -630,13 +629,12 @@ body {
     padding-bottom: 10px;
   }
   .minigames__card-left-text {
-    width: 100%;
     font-size: 16px;
     line-height: 20px;
     padding-bottom: 0px;
   }
   .minigames__card-left-button {
-    width: 80%;
+    width: 70%;
     height: 55px;
     font-size: 16px;
   }
