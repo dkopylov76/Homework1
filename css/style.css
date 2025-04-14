@@ -318,8 +318,8 @@ body {
   width: 50%;
 }
 .minigames__card-right-img {
+  height: 500px;
   display: flex;
-  flex-direction: column;
   border-radius: 30px;
 }
 .minigames__card-right-img-1 {
@@ -639,6 +639,9 @@ body {
     width: 80%;
     height: 55px;
     font-size: 16px;
+  }
+  .minigames__card-right-img {
+    width: 100%;
   }
   .minigames__img-1 {
     display: none;
