@@ -273,8 +273,8 @@ body {
 .minigames__card-left {
   display: flex;
   flex-direction: column;
-  margin-left: 48px;
-  margin-top: 48px;
+  padding-left: 48px;
+  padding-top: 48px;
   width: 50%;
 }
 .minigames__card-left-name {
@@ -320,7 +320,7 @@ body {
 .minigames__card-right-img {
   display: flex;
   border-radius: 30px;
-  height: 100%;
+  height: 500px;
 }
 .minigames__card-right-img-1 {
   background: rgb(173, 97, 255);
