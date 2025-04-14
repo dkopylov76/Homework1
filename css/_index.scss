@@ -249,7 +249,8 @@
         &-left {
             display: flex;
             flex-direction: column;
-            padding: 48px;
+            margin-left: 48px;
+            margin-top: 48px;
             width: 50%;
             &-name {
                 color: rgb(32, 32, 39);
@@ -291,10 +292,11 @@
         }
         &-right {
             width: 50%;
+            height: 500px;
             &-img {
-                height: 500px;
                 display: flex;
                 border-radius: 30px;
+                height: 100%;
                 &-1 {
                     background: rgb(173, 97, 255);
                 }
