@@ -85,21 +85,21 @@
         }
     }
     &__bottom {
-        position: relative;
-        width: 3060px;
-        height: 90px;
-        margin-top: 153px;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        gap: 51px;
-        animation: scroll-left 10s linear infinite;
-        animation-direction: normal;
         background-color: rgb(188, 236, 48);
-        left: 0px;
         &-back {
+            position: relative;
+            width: 3060px;
+            height: 90px;
+            margin-top: 153px;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 51px;
+            animation: scroll-left 10s linear infinite;
+            animation-direction: normal;
             background-color: rgb(188, 236, 48);
+            left: 0px;
         }
         &-text {
             color: rgb(32, 32, 39);
