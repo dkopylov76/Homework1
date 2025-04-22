@@ -121,6 +121,9 @@ body {
   background-color: rgb(188, 236, 48);
   left: 0px;
 }
+.header__bottom-back {
+  background-color: rgb(188, 236, 48);
+}
 .header__bottom-text {
   color: rgb(32, 32, 39);
   font-size: 30px;

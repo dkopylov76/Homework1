@@ -98,6 +98,9 @@
         animation-direction: normal;
         background-color: rgb(188, 236, 48);
         left: 0px;
+        &-back {
+            background-color: rgb(188, 236, 48);
+        }
         &-text {
             color: rgb(32, 32, 39);
             font-size: 30px;
