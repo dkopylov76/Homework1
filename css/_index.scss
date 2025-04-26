@@ -85,9 +85,11 @@
         }
         &-7 {
             position: absolute;
-            width: 100%;
+            width: 3060px;
             background-color: rgb(188, 236, 48);
-            height: 90px;
+            height: 92px;
+            top: calc(100% - 92px);
+            left: calc(50% - 1500px);
         }
     }
     &__bottom {

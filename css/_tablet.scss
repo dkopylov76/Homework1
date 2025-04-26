@@ -227,6 +227,12 @@
                 right: calc(0% - 60px);
                 top: 10px;
             }
+            &-7 {
+                width: 1800px;
+                height: 72px;
+                top: calc(100% - 72px);
+                left: calc(50% - 900px);
+            }
         }
     }
     .games {
