@@ -243,7 +243,6 @@
             gap: 24px;
         }
         &__card {
-            width: 100%;
             &-left {
                 padding: 24px;
                 justify-content: space-around;
@@ -269,7 +268,7 @@
             }
             &-right {
                 &-img {
-                    height: 300px;
+                    height: 100%;
                     &-width {
                         width: 100%;
                     }

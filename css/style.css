@@ -316,7 +316,7 @@ body {
   color: rgb(32, 32, 39);
 }
 .minigames__card-right {
-  width: 50%;
+  width: 55%;
 }
 .minigames__card-right-img {
   display: flex;
@@ -625,9 +625,6 @@ body {
   .minigames__cards {
     gap: 24px;
   }
-  .minigames__card {
-    width: 100%;
-  }
   .minigames__card-left {
     padding: 24px;
     justify-content: space-around;
@@ -652,7 +649,7 @@ body {
     font-size: 16px;
   }
   .minigames__card-right-img {
-    height: 300px;
+    height: 100%;
   }
   .minigames__card-right-img-width {
     width: 100%;
