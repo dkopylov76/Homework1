@@ -108,8 +108,6 @@ body {
 }
 .header__bottom {
   background-color: rgb(188, 236, 48);
-}
-.header__bottom-back {
   position: relative;
   width: 3060px;
   height: 90px;
