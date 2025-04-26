@@ -651,8 +651,8 @@ body {
     height: 55px;
     font-size: 16px;
   }
-  .minigames__card-right-img {
-    height: 300px;
+  .minigames__card-right-img_width {
+    width: 100%;
   }
   .minigames__img-1 {
     display: none;
