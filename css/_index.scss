@@ -30,7 +30,7 @@
             font-weight: 600;
         }
     }
-    &__button {
+    &__button1 {
         display: flex;
         width: 247px;
         height: 66px;
@@ -48,6 +48,9 @@
             background: rgb(255, 255, 255);
             color: rgb(32, 32, 39);
         }
+    }
+    &__button2 {
+        display: none;
     }
     &__img {
         &-1 {
@@ -80,24 +83,37 @@
             position: absolute;
             display: none;
         }
+        &-7 {
+            position: absolute;
+            width: 3060px;
+            background-color: rgb(188, 236, 48);
+            height: 92px;
+            top: calc(100% - 92px);
+            left: calc(50% - 1500px);
+        }
     }
     &__bottom {
-        position: absolute;
-        width: 3220px;
+        background-color: rgb(188, 236, 48);
+        position: relative;
+        width: 3060px;
         height: 90px;
-        margin-top: 156px;
+        margin-top: 153px;
         display: flex;
         flex-direction: row;
+        justify-content: flex-start;
         align-items: center;
         gap: 51px;
-        overflow: hidden;
-        background: rgb(188, 236, 48);
+        animation: scroll-left 10s linear infinite;
+        animation-direction: normal;
+        background-color: rgb(188, 236, 48);
         left: 0px;
         &-text {
             color: rgb(32, 32, 39);
             font-size: 30px;
             font-weight: 700;
+            flex: none;
             text-align: left;
+            line-height: 110%;
             text-transform: uppercase;
         }
     }
@@ -242,7 +258,8 @@
         &-left {
             display: flex;
             flex-direction: column;
-            padding: 48px;
+            padding-left: 48px;
+            padding-top: 48px;
             width: 50%;
             &-name {
                 color: rgb(32, 32, 39);
@@ -253,7 +270,6 @@
                 padding-bottom: 24px;
             }
             &-text {
-                width: 457px;
                 color: rgb(32, 32, 39);
                 font-size: 24px;
                 font-weight: 400;
@@ -284,11 +300,11 @@
             }
         }
         &-right {
-            width: 50%;
+            width: 55%;
             &-img {
-                height: 500px;
                 display: flex;
                 border-radius: 30px;
+                height: 500px;
                 &-1 {
                     background: rgb(173, 97, 255);
                 }
@@ -345,5 +361,14 @@
         font-size: 24px;
         font-weight: 600;
         line-height: 29px;
+    }
+}
+
+@keyframes scroll-left {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-100%);
     }
 }

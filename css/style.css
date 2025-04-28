@@ -54,7 +54,7 @@ body {
 .header__text-bold {
   font-weight: 600;
 }
-.header__button {
+.header__button1 {
   display: flex;
   width: 247px;
   height: 66px;
@@ -69,9 +69,12 @@ body {
   background: rgb(32, 32, 39);
   transition: background 1s;
 }
-.header__button:hover {
+.header__button1:hover {
   background: rgb(255, 255, 255);
   color: rgb(32, 32, 39);
+}
+.header__button2 {
+  display: none;
 }
 .header__img-1 {
   position: absolute;
@@ -103,24 +106,37 @@ body {
   position: absolute;
   display: none;
 }
-.header__bottom {
+.header__img-7 {
   position: absolute;
-  width: 3220px;
+  width: 3060px;
+  background-color: rgb(188, 236, 48);
+  height: 92px;
+  top: calc(100% - 92px);
+  left: calc(50% - 1500px);
+}
+.header__bottom {
+  background-color: rgb(188, 236, 48);
+  position: relative;
+  width: 3060px;
   height: 90px;
-  margin-top: 156px;
+  margin-top: 153px;
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
   align-items: center;
   gap: 51px;
-  overflow: hidden;
-  background: rgb(188, 236, 48);
+  animation: scroll-left 10s linear infinite;
+  animation-direction: normal;
+  background-color: rgb(188, 236, 48);
   left: 0px;
 }
 .header__bottom-text {
   color: rgb(32, 32, 39);
   font-size: 30px;
   font-weight: 700;
+  flex: none;
   text-align: left;
+  line-height: 110%;
   text-transform: uppercase;
 }
 
@@ -266,7 +282,8 @@ body {
 .minigames__card-left {
   display: flex;
   flex-direction: column;
-  padding: 48px;
+  padding-left: 48px;
+  padding-top: 48px;
   width: 50%;
 }
 .minigames__card-left-name {
@@ -278,7 +295,6 @@ body {
   padding-bottom: 24px;
 }
 .minigames__card-left-text {
-  width: 457px;
   color: rgb(32, 32, 39);
   font-size: 24px;
   font-weight: 400;
@@ -308,12 +324,12 @@ body {
   color: rgb(32, 32, 39);
 }
 .minigames__card-right {
-  width: 50%;
+  width: 55%;
 }
 .minigames__card-right-img {
-  height: 500px;
   display: flex;
   border-radius: 30px;
+  height: 500px;
 }
 .minigames__card-right-img-1 {
   background: rgb(173, 97, 255);
@@ -369,7 +385,175 @@ body {
   line-height: 29px;
 }
 
-@media (max-width: 376px) {
+@keyframes scroll-left {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@media (min-width: 769px) and (max-width: 1199px) {
+  .center {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .header {
+    overflow: hidden;
+    height: 700px;
+  }
+  .header__content {
+    padding-top: 250px;
+    padding-left: 48px;
+  }
+  .header__h1 {
+    font-size: 48px;
+    line-height: 48px;
+    text-align: left;
+    padding-bottom: 16px;
+  }
+  .header__text {
+    padding-bottom: 70px;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: left;
+  }
+  .header__button1 {
+    display: none;
+  }
+  .header__button2 {
+    display: flex;
+    width: 285px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    background: rgb(32, 32, 39);
+    transition: background 1s;
+  }
+  .header__button2:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(32, 32, 39);
+  }
+  .header__bottom {
+    width: 1800.4px;
+    height: 70.34px;
+    margin-top: 67px;
+    gap: 27px;
+    left: 0px;
+  }
+  .header__bottom-text {
+    font-size: 17px;
+    text-align: left;
+  }
+  .header__img-1 {
+    display: none;
+  }
+  .header__img-2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: calc(50% - 350px);
+    top: 60px;
+  }
+  .header__img-3 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: calc(50% - 280px);
+    top: 115px;
+  }
+  .header__img-4 {
+    position: absolute;
+    width: 39px;
+    height: 41px;
+    right: calc(50% - 320px);
+    top: 550px;
+  }
+  .header__img-5 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: calc(50% - 260px);
+    top: 530px;
+  }
+  .header__img-6 {
+    display: block;
+    position: absolute;
+    right: calc(0% - 60px);
+    top: 10px;
+  }
+  .header__img-7 {
+    width: 1800px;
+    height: 72px;
+    top: calc(100% - 72px);
+    left: calc(50% - 900px);
+  }
+  .games {
+    display: none;
+  }
+  .minigames__h1 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    font-size: 40px;
+    line-height: 49px;
+  }
+  .minigames__cards {
+    gap: 24px;
+  }
+  .minigames__card-left {
+    padding: 24px;
+    justify-content: space-around;
+  }
+  .minigames__card-left-name {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: left;
+    padding-bottom: 10px;
+  }
+  .minigames__card-left-text {
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 0px;
+  }
+  .minigames__card-left-button {
+    width: 70%;
+    height: 55px;
+    font-size: 16px;
+  }
+  .minigames__card-right-img {
+    height: 100%;
+  }
+  .minigames__card-right-img-width {
+    width: 100%;
+  }
+  .minigames__img-1 {
+    display: none;
+  }
+  .minigames__img-2 {
+    display: none;
+  }
+  .minigames__img-3 {
+    display: none;
+  }
+  .minigames__img-4 {
+    display: none;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+}
+@media (max-width: 768px) {
   .center {
     padding-left: 16px;
     padding-right: 16px;
@@ -393,16 +577,34 @@ body {
     font-size: 16px;
     line-height: 20px;
     text-align: center;
+    width: 296px;
   }
-  .header__button {
+  .header__button1 {
+    display: none;
+  }
+  .header__button2 {
+    display: flex;
     width: 285px;
     height: 55px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(32, 32, 39);
+    border-radius: 60px;
+    color: rgb(255, 255, 255);
     font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    background: rgb(32, 32, 39);
+    transition: background 1s;
+  }
+  .header__button2:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(32, 32, 39);
   }
   .header__bottom {
     width: 1717.4px;
     height: 51.34px;
-    margin-top: 105px;
+    margin-top: 107px;
     gap: 27px;
     left: 0px;
   }
@@ -447,6 +649,12 @@ body {
     right: calc(50% - 275px);
     top: -80px;
   }
+  .header__img-7 {
+    width: 1800px;
+    height: 52px;
+    top: calc(100% - 53px);
+    left: calc(50% - 900px);
+  }
   .games {
     display: none;
   }
@@ -458,6 +666,7 @@ body {
   }
   .minigames__cards {
     gap: 24px;
+    align-items: center;
   }
   .minigames__card {
     max-width: 343px;

@@ -1,27 +1,26 @@
-@media (max-width: 768px) {
+@media (min-width: 769px) and (max-width: 1199px) {
     .center {
-        padding-left: 16px;
-        padding-right: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
     .header {
         overflow: hidden;
         height: 700px;
         &__content {
-            padding-top: 147px;
-            align-items: center;
+            padding-top: 250px;
+            padding-left: 48px;
         }
         &__h1 {
-            width: 262px;
-            font-size: 40px;
-            line-height: 49px;
-            text-align: center;
+            font-size: 48px;
+            line-height: 48px;
+            text-align: left;
+            padding-bottom: 16px;
         }
         &__text {
-            padding-bottom: 36px;
-            font-size: 16px;
-            line-height: 20px;
-            text-align: center;
-            width: 296px;
+            padding-bottom: 70px;
+            font-size: 22px;
+            line-height: 24px;
+            text-align: left;
         }
         &__button1 {
             display: none;
@@ -46,13 +45,13 @@
             }
         }
         &__bottom {
-            width: 1717.4px;
-            height: 51.34px;
-            margin-top: 107px;
+            width: 1800.4px;
+            height: 70.34px;
+            margin-top: 67px;
             gap: 27px;
             left: 0px;
             &-text {
-                font-size: 16px;
+                font-size: 17px;
                 text-align: left;
             }
         }
@@ -62,42 +61,42 @@
             }
             &-2 {
                 position: absolute;
-                width: 35px;
-                height: 35px;
-                left: calc(50% - 151px);
-                top: 97px;
+                width: 50px;
+                height: 50px;
+                left: calc(50% - 350px);
+                top: 60px;
             }
             &-3 {
                 position: absolute;
-                width: 21px;
-                height: 21px;
-                left: calc(50% - 97px);
-                top: 64px;
+                width: 30px;
+                height: 30px;
+                left: calc(50% - 280px);
+                top: 115px;
             }
             &-4 {
                 position: absolute;
                 width: 39px;
                 height: 41px;
-                right: calc(50% - 154px);
-                top: 580px;
+                right: calc(50% - 320px);
+                top: 550px;
             }
             &-5 {
                 position: absolute;
-                width: 18px;
-                height: 18px;
-                right: calc(50% - 102px);
-                top: 557px;
+                width: 20px;
+                height: 20px;
+                right: calc(50% - 260px);
+                top: 530px;
             }
             &-6 {
                 display: block;
                 position: absolute;
-                right: calc(50% - 275px);
-                top: -80px;
+                right: calc(0% - 60px);
+                top: 10px;
             }
             &-7 {
                 width: 1800px;
-                height: 52px;
-                top: calc(100% - 53px);
+                height: 72px;
+                top: calc(100% - 72px);
                 left: calc(50% - 900px);
             }
         }
@@ -114,38 +113,34 @@
         }
         &__cards {
             gap: 24px;
-            align-items: center;
         }
         &__card {
-            max-width: 343px;
-            width: 100%;
-            flex-direction: column-reverse;
             &-left {
-                display: flex;
-                flex-direction: column;
-                padding: 29px;
+                padding: 24px;
+                justify-content: space-around;
                 &-name {
-                    width: 285px;
                     font-size: 32px;
                     line-height: 39px;
                     text-align: left;
-                    padding-bottom: 16px;
+                    padding-bottom: 10px;
                 }
                 &-text {
-                    width: 285px;
                     font-size: 16px;
                     line-height: 20px;
-                    padding-bottom: 32px;
+                    padding-bottom: 0px;
                 }
                 &-button {
-                    width: 285px;
+                    width: 70%;
                     height: 55px;
                     font-size: 16px;
                 }
             }
             &-right {
                 &-img {
-                    max-height: 285px;
+                    height: 100%;
+                    &-width {
+                        width: 100%;
+                    }
                 }
             }
         }

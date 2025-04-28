@@ -154,3 +154,18 @@ function gameStoneScissorsPaper() {
         alert('Введен некорректный вариант.')
     }
 }
+
+//Игра "Генератор случайных цветов"
+function gameRandomColorGenerator() {
+    const red = Math.floor(Math.random() * 255) + 1;
+    const green = Math.floor(Math.random() * 255) + 1;
+    const blue = Math.floor(Math.random() * 255) + 1;
+    let randomColor = `rgb(${red}, ${green}, ${blue})`;
+    console.log(randomColor);
+
+    const blockElGames = document.querySelector('.games');
+    const blockElMiniGames = document.querySelector('.minigames');
+                        
+    blockElGames.style.backgroundColor = randomColor;
+    blockElMiniGames.style.backgroundColor = randomColor;
+}
